@@ -1,0 +1,53 @@
+[
+    {
+        "name": "crazycodr/roman",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crazycodr/roman.git",
+            "reference": "e1ebebe8082ebd3ca4f972c87b5a5eb429e1e68c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/crazycodr/roman/zipball/e1ebebe8082ebd3ca4f972c87b5a5eb429e1e68c",
+            "reference": "e1ebebe8082ebd3ca4f972c87b5a5eb429e1e68c",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.11",
+            "league/csv": "^8.0",
+            "phpunit/phpunit": "^7.1"
+        },
+        "time": "2019-07-11T16:48:37+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "CrazyCodr\\Converters\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mathieu Dumoulin",
+                "email": "thecrazycodr@gmail.com"
+            }
+        ],
+        "description": "Provides a simple decimal/roman number converter",
+        "keywords": [
+            "convert",
+            "format",
+            "roman"
+        ]
+    }
+]
