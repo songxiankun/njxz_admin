@@ -1,0 +1,15 @@
+<select name="{$idStr}" id="{$idStr}" lay-search="">
+	<option value="">【请选择部门】</option>
+	<if condition="$adminDepList neq null">
+        <volist name="adminDepList" id="val">
+            <option value="{$val.id}" <if condition="$val.id eq $selectId">selected</if>>{$val.name}</option>
+<!--            <optgroup label="{$val.name}">-->
+<!--                <if condition="$val['children'] neq null">-->
+<!--                <volist name="val['children']" id="v">-->
+<!--                -->
+<!--                </volist>-->
+<!--                </if>-->
+<!--            </optgroup>-->
+        </volist>
+	</if>
+</select>

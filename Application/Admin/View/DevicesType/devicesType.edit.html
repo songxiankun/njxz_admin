@@ -3,27 +3,26 @@
 
     <div class="layui-form-item">
         <div class="layui-inline">
-            <label class="layui-form-label">楼区名称：</label>
+            <label class="layui-form-label">设备名称：</label>
             <div class="layui-input-inline">
                 <input name="name" id="name" value="{$info.name}" lay-verify="required"
-                       autocomplete="off" placeholder="请输入楼区名称" class="layui-input" type="text">
+                       autocomplete="off" placeholder="请输入设备名称" class="layui-input" type="text">
             </div>
         </div>
         <div class="layui-inline">
-            <label class="layui-form-label">楼区层数：</label>
+            <label class="layui-form-label">设备父级：</label>
             <div class="layui-input-inline">
-                <input name="floors" id="floors" value="{$info.floors}" lay-verify="" placeholder="请输入楼区层数"
-                       autocomplete="off"
-                       class="layui-input" type="text">
+                {:W('common/singleSelect',array('parent_id|1|所属父类|name|id',
+                M('device_type')->field('id,name')->where('mark=1 and parent_id=0')->select(), $info['id']))}
             </div>
         </div>
     </div>
 
     <div class="layui-form-item">
         <div class="layui-inline">
-            <label for="note" class="layui-form-label">楼区备注：</label>
+            <label for="note" class="layui-form-label">设备备注：</label>
             <div class="layui-input-block">
-                <textarea style="text-align: left" name="note" id="note" cols="75" rows="10">{$info.note}</textarea>
+                <textarea style="text-align: left" name="notes" id="notes" cols="75" rows="10">{$info.notes}</textarea>
             </div>
         </div>
     </div>

@@ -1,0 +1,108 @@
+<form class="layui-form info-form" action="" style="width:80%;">
+    <input name="id" id="id" type="hidden" value="{$info.id}">
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">申请人：</label>
+            <div class="layui-input-inline">
+                <input name="name" id="name" value="{$info.admin_name}" lay-verify="required"
+                       readonly class="layui-input" type="text">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">申请订单id：</label>
+            <div class="layui-input-inline">
+                <div class="layui-input-inline">
+                    <input name="repair_app_id" id="repair_app_id" value="{$info.repair_app_id}" lay-verify="required"
+                           readonly class="layui-input" type="text">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label for="user_name" class="layui-form-label">维修工人：</label>
+                <div class="layui-input-inline">
+                    <input name="user_name" id="user_name" value="{$info.user_name}" lay-verify="required"
+                           readonly class="layui-input" type="text">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label for="user_name" class="layui-form-label">维修状态：</label>
+                <div class="layui-input-inline">
+                    <input name="format_status" id="format_status" value="{$info.format_status}" lay-verify="required"
+                           readonly class="layui-input" type="text">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label for="format_order_time" class="layui-form-label">订单申请日期：</label>
+                <div class="layui-input-inline">
+                    <input name="format_order_time" id="format_order_time" value="{$info.format_order_time}" lay-verify="required"
+                           readonly class="layui-input" type="text">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label for="user_name" class="layui-form-label">维修接单日期：</label>
+                <div class="layui-input-inline">
+                    <input name="format_receive_time" id="format_receive_time" value="{$info.format_receive_time}" lay-verify="required"
+                           readonly class="layui-input" type="text">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label for="format_end_time" class="layui-form-label">维修结束日期：</label>
+                <div class="layui-input-inline">
+                    <input name="format_end_time" id="format_end_time" value="{$info.format_end_time}" lay-verify="required"
+                           readonly class="layui-input" type="text">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label for="sign_name" class="layui-form-label">维修单签字人：</label>
+                <div class="layui-input-inline">
+                    <input name="sign_name" id="sign_name" value="{$info.sign_name}" lay-verify="required"
+                           readonly class="layui-input" type="text">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label for="sign_ok" class="layui-form-label">维修签字确认：</label>
+                <div class="layui-input-inline">
+                    <input name="sign_ok" id="sign_ok" value="{$info.sign_ok}" lay-verify="required"
+                           readonly class="layui-input" type="text">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label for="format_sign_time" class="layui-form-label">维修签字时间：</label>
+                <div class="layui-input-inline">
+                    <input name="format_sign_time" id="format_sign_time" value="{$info.format_sign_time}" lay-verify="required"
+                           readonly class="layui-input" type="text">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label for="note" class="layui-form-label">签字备注：</label>
+                <div class="layui-input-inline">
+                    <textarea style="text-align: left" name="note" id="note" cols="75" rows="10">{$info.note}</textarea>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="layui-form-item">
+            <div class="layui-input-inline">
+                <button class="layui-btn" lay-submit="" lay-filter="submitForm">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+</form>

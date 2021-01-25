@@ -1,0 +1,111 @@
+<form class="layui-form info-form" action="" style="width:80%;">
+    <input name="id" id="id" type="hidden" value="{$info.id}">
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">原资产编号：</label>
+            <div class="layui-input-inline">
+                <input name="origin_num" id="origin_num" value="{$info.origin_num}" lay-verify="required"
+                       autocomplete="off" placeholder="请输入设备原始编号" class="layui-input" type="text">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">资产编号：</label>
+            <div class="layui-input-inline">
+                <input name="num" id="num" value="{$info.num}" lay-verify="" placeholder="请输入资产编号" autocomplete="off"
+                       class="layui-input" type="text">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">资产名称：</label>
+            <div class="layui-input-inline">
+                {:W('devicesType/select',array('device_type_id|1|设备名称|name|id',$info['device_type_id']))}
+            </div>
+        </div>
+
+        <div class="layui-inline">
+            <label class="layui-form-label">设备型号：</label>
+            <div class="layui-input-inline">
+                <input name="type_name" id="type_name" value="{$info.type_name}" lay-verify="required"
+                       placeholder="请输入设备型号" autocomplete="off" class="layui-input" type="text">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">设备规格：</label>
+            <div class="layui-input-inline">
+                <input name="norm" id="norm" value="{$info.norm}" lay-verify="required"
+                       placeholder="请输入设备规格" autocomplete="off" class="layui-input" type="text">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">设备数量：</label>
+            <div class="layui-input-inline">
+                <input name="count" id="count" value="{$info.count}" lay-verify="required"
+                       placeholder="请输入设备数量" autocomplete="off" class="layui-input" type="text">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">设备价值：</label>
+            <div class="layui-input-inline">
+                <input name="money" id="money" value="{$info.money}" lay-verify="required"
+                       placeholder="请输入设备价值(元)" autocomplete="off" class="layui-input" type="text">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">接收时间：</label>
+            <div class="layui-input-inline">
+                <input name="achieve_time" id="achieve_time" value="{$info.format_achieve_time}" lay-verify="datetime"
+                       placeholder="yyyy-MM-dd" autocomplete="off" class="layui-input date-icon" type="text">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">是否在用：</label>
+            <div class="layui-input-inline">
+                {:W('common/switchCheck',array(is_use,'在用|禁用',$info['is_use'] ? $info['is_use'] : 1))}
+            </div>
+        </div>
+
+        <div class="layui-inline">
+            <label class="layui-form-label">所属部门：</label>
+            <div class="layui-input-inline">
+                {:W('adminDep/select',array(department_id,$info['department_id']))}
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">管理人员：</label>
+            <div class="layui-input-inline">
+                {:W('common/singleSelect',array('admin_id|1|设备管理员|realname|id',M("admin")->field('id,realname')
+                ->where(['mark'=>1])->select(),$info['admin_id']))}
+            </div>
+        </div>
+
+        <div class="layui-inline">
+            <label class="layui-form-label">所在实验室：</label>
+            <div class="layui-input-inline">
+                {:W('common/singleSelect',array('engin_room_id|1|所在实验室|name|id',M("enginRoom")->field('id,name')
+                ->where(['mark'=>1])->select(),$info['engin_room_id']))}
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="" lay-filter="submitForm">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>

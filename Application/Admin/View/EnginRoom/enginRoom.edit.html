@@ -1,0 +1,70 @@
+<form class="layui-form info-form" action="" style="width:80%;">
+    <input name="id" id="id" type="hidden" value="{$info.id}">
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">机房名称：</label>
+            <div class="layui-input-inline">
+                <input name="name" id="name" value="{$info.name}" lay-verify="required"
+                       autocomplete="off" placeholder="请输入机房名称" class="layui-input" type="text">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">机房编号：</label>
+            <div class="layui-input-inline">
+                <input name="num" id="num" value="{$info.num}" lay-verify="" placeholder="请输入机房编号"
+                       autocomplete="off"
+                       class="layui-input" type="text">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">所属楼区：</label>
+            <div class="layui-input-inline">
+                {:W('common/singleSelect',array('building_id|1|所属楼区|name|id',
+                M('building')->field('id,name')->where('mark=1')->select(), $info['building_id']))}
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">所在楼区层数：</label>
+            <div class="layui-input-inline">
+                <input name="floor" id="floor" value="{$info.floor}" lay-verify="" placeholder="请输入所在楼区楼层"
+                       autocomplete="off"
+                       class="layui-input" type="text">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">所属管理员：</label>
+            <div class="layui-input-inline">
+                {:W('common/singleSelect',array('admin_id|1|所属管理员|realname|id',
+                M('Admin')->field('id,realname')->where('mark=1')->select(), $info['admin_id']))}
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label for="note" class="layui-form-label">楼区备注：</label>
+            <div class="layui-input-block">
+                <textarea style="text-align: left" name="note" id="note" cols="75" rows="10">{$info.note}</textarea>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="" lay-filter="submitForm">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
