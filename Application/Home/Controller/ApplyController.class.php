@@ -87,6 +87,7 @@ class ApplyController extends BaseController
 
             $this->ajaxReturn(message("获取成功", true, ['floors' => $floors]));
         }
+        $this->ajaxReturn(message('非法请求', false, []));
     }
 
     /**
@@ -118,6 +119,7 @@ class ApplyController extends BaseController
             }
             $this->ajaxReturn(message("获取成功", true, ['rooms' => $rooms]));
         }
+        $this->ajaxReturn(message('非法请求', false, []));
     }
 
     /**
@@ -151,6 +153,7 @@ class ApplyController extends BaseController
             }
             $this->ajaxReturn(message("获取成功", true, ['computerCodes' => $computerCodes]));
         }
+        $this->ajaxReturn(message('非法请求', false, []));
     }
 
     /**
@@ -187,5 +190,23 @@ class ApplyController extends BaseController
             }
             $this->ajaxReturn(message("获取成功", true, ['childCC' => $info]));
         }
+        $this->ajaxReturn(message('非法请求', false, []));
+    }
+
+    /**
+     * 根据设备唯一编号获取设备详情信息
+     * @author kunkun
+     */
+    public function getInfoByNum()
+    {
+        if (IS_POST) {
+            $num = I('post.num', 0);
+
+            if ($num == 0)
+                $this->ajaxReturn(message('参数错误', false, []));
+            $res = $this->deviceMod->getInfoByNums($num);
+            $this->ajaxReturn($res);
+        }
+        $this->ajaxReturn(message('非法请求', false, []));
     }
 }

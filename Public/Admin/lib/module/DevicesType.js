@@ -55,7 +55,6 @@ layui.use(['func', 'common'], function () {
                                 if (i == 2 && row.level > 2) continue;
                                 itemStr += itemArr[i].replace('<a', "<a data-id=" + row.id);
                             }
-                            console.log(1111+itemStr);
                             return itemStr;
                         }
                         return "";
