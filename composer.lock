@@ -1,0 +1,121 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1e90dcde620c5961289d986f4a6b8618",
+    "packages": [
+        {
+            "name": "crazycodr/roman",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/crazycodr/roman.git",
+                "reference": "e1ebebe8082ebd3ca4f972c87b5a5eb429e1e68c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/crazycodr/roman/zipball/e1ebebe8082ebd3ca4f972c87b5a5eb429e1e68c",
+                "reference": "e1ebebe8082ebd3ca4f972c87b5a5eb429e1e68c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.11",
+                "league/csv": "^8.0",
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CrazyCodr\\Converters\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mathieu Dumoulin",
+                    "email": "thecrazycodr@gmail.com"
+                }
+            ],
+            "description": "Provides a simple decimal/roman number converter",
+            "keywords": [
+                "convert",
+                "format",
+                "roman"
+            ],
+            "time": "2019-07-11T16:48:37+00:00"
+        },
+        {
+            "name": "firebase/php-jwt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "1fae8c46348ed6da8a56deaff282034cb57673e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/1fae8c46348ed6da8a56deaff282034cb57673e0",
+                "reference": "1fae8c46348ed6da8a56deaff282034cb57673e0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.8 <=9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "keywords": [
+                "jwt",
+                "php"
+            ],
+            "time": "2020-10-26T17:34:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "crazycodr/roman": 20,
+        "firebase/php-jwt": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-fileinfo": "*",
+        "ext-mbstring": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

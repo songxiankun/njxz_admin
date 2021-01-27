@@ -1,0 +1,655 @@
+[ 2019-09-04T15:21:53+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018052s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021422s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0160s ]
+ERR: Redis server went away
+
+[ 2019-09-04T15:22:27+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000291s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002392s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: code D:\web\star_call\web\Application\API\Controller\WeixinController.class.php 第 30 行.
+
+[ 2019-09-04T15:22:55+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003165s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0292s ]
+
+[ 2019-09-04T15:25:35+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000255s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0181s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0240s ]
+SQL: SELECT `user_id`,`openid`,`nickname`,`avatar` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined index: nickname D:\web\star_call\web\Application\API\Service\UserService.class.php 第 99 行.
+NOTIC: [8] Undefined index: headimgurl D:\web\star_call\web\Application\API\Service\UserService.class.php 第 100 行.
+NOTIC: [8] Undefined index: sex D:\web\star_call\web\Application\API\Service\UserService.class.php 第 101 行.
+ERR: 1048:Column 'nickname' cannot be null
+ [ SQL语句 ] : INSERT INTO `sy_third_user` (`user_id`,`openid`,`type`,`nickname`,`avatar`,`sex`,`create_time`) VALUES ('0','343rfjowfeewf','1',NULL,NULL,NULL,'1567581935')
+ERR: 1048:Column 'nickname' cannot be null
+ [ SQL语句 ] : INSERT INTO `sy_third_user` (`user_id`,`openid`,`type`,`nickname`,`avatar`,`sex`,`create_time`) VALUES ('0','343rfjowfeewf','1',NULL,NULL,NULL,'1567581935')
+
+[ 2019-09-04T15:28:32+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0177s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0138s ]
+SQL: SELECT `user_id`,`openid`,`nickname`,`avatar` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0123s ]
+NOTIC: [8] Undefined index: nickname D:\web\star_call\web\Application\API\Service\UserService.class.php 第 99 行.
+NOTIC: [8] Undefined index: headimgurl D:\web\star_call\web\Application\API\Service\UserService.class.php 第 100 行.
+NOTIC: [8] Undefined index: sex D:\web\star_call\web\Application\API\Service\UserService.class.php 第 101 行.
+ERR: 1048:Column 'nickname' cannot be null
+ [ SQL语句 ] : INSERT INTO `sy_third_user` (`user_id`,`openid`,`type`,`nickname`,`avatar`,`sex`,`create_time`) VALUES ('0','343rfjowfeewf','1',NULL,NULL,NULL,'1567582112')
+ERR: 1048:Column 'nickname' cannot be null
+ [ SQL语句 ] : INSERT INTO `sy_third_user` (`user_id`,`openid`,`type`,`nickname`,`avatar`,`sex`,`create_time`) VALUES ('0','343rfjowfeewf','1',NULL,NULL,NULL,'1567582112')
+
+[ 2019-09-04T15:32:51+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001808s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0226s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0210s ]
+SQL: SELECT `user_id`,`openid`,`nickname`,`avatar` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0203s ]
+NOTIC: [8] Undefined index: nickname D:\web\star_call\web\Application\API\Service\UserService.class.php 第 99 行.
+NOTIC: [8] Undefined index: headimgurl D:\web\star_call\web\Application\API\Service\UserService.class.php 第 100 行.
+NOTIC: [8] Undefined index: sex D:\web\star_call\web\Application\API\Service\UserService.class.php 第 101 行.
+ERR: 1048:Column 'nickname' cannot be null
+ [ SQL语句 ] : INSERT INTO `sy_third_user` (`user_id`,`openid`,`type`,`nickname`,`avatar`,`sex`,`create_time`) VALUES ('0','343rfjowfeewf','1',NULL,NULL,NULL,'1567582371')
+ERR: 1048:Column 'nickname' cannot be null
+ [ SQL语句 ] : INSERT INTO `sy_third_user` (`user_id`,`openid`,`type`,`nickname`,`avatar`,`sex`,`create_time`) VALUES ('0','343rfjowfeewf','1',NULL,NULL,NULL,'1567582371')
+
+[ 2019-09-04T15:35:12+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002191s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003947s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0200s ]
+SQL: SELECT `user_id`,`openid`,`nickname`,`avatar` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0231s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0249s ]
+
+[ 2019-09-04T15:35:56+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000326s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003041s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005931s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0152s ]
+SQL: SELECT `user_id`,`openid`,`nickname`,`avatar` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0206s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0153s ]
+
+[ 2019-09-04T15:38:13+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008843s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0394s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0375s ]
+SQL: SELECT `user_id`,`openid`,`nickname`,`avatar` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0194s ]
+
+[ 2019-09-04T15:40:19+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004649s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0152s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0226s ]
+SQL: SELECT `user_id`,`openid`,`nickname`,`avatar` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0158s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 94 行.
+
+[ 2019-09-04T15:40:53+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000421s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002334s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002732s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0205s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0240s ]
+SQL: SELECT `user_id`,`openid`,`nickname`,`avatar` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0214s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0241s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 94 行.
+
+[ 2019-09-04T15:41:58+08:00 ] 127.0.0.1 /Weixin/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000317s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004460s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0162s ]
+SQL: SELECT `user_id`,`openid`,`nickname`,`avatar` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0152s ]
+NOTIC: [8] Undefined index: errcode D:\web\star_call\web\Application\API\Service\UserService.class.php 第 94 行.
+SQL: INSERT INTO `sy_third_user` (`user_id`,`openid`,`type`,`nickname`,`avatar`,`sex`,`create_time`) VALUES ('0','343rfjowfeewf','1','NICKNAME','http://thirdwx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46','1','1567582918') [ RunTime:0.0266s ]
+
+[ 2019-09-04T15:47:32+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000261s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002217s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006294s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.4097s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Service\UserVoteService.class.php 第 91 行.
+
+[ 2019-09-04T15:54:21+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000359s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001946s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003265s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Service\UserVoteService.class.php 第 91 行.
+
+[ 2019-09-04T15:55:42+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000505s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005641s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004809s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0205s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+
+[ 2019-09-04T15:59:16+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0325s ]
+SQL: SELECT `id` FROM `sy_user` WHERE `mobile` = '18305165302' LIMIT 1   [ RunTime:0.0377s ]
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0335s ]
+SQL: SELECT `id` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0741s ]
+
+[ 2019-09-04T15:59:58+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002323s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0192s ]
+SQL: SELECT `id` FROM `sy_user` WHERE `mobile` = '18305165302' LIMIT 1   [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0202s ]
+SQL: SELECT `user_id` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0225s ]
+
+[ 2019-09-04T16:02:25+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000312s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002171s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003196s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0173s ]
+SQL: SELECT `id` FROM `sy_user` WHERE `mobile` = '18305165302' LIMIT 1   [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0141s ]
+SQL: SELECT `user_id` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0136s ]
+SQL: INSERT INTO `sy_user` (`create_time`,`mobile`) VALUES ('2019-09-04 16:02:24','18305165302') [ RunTime:0.0408s ]
+SQL: UPDATE `sy_third_user` SET `user_id`='2' WHERE `openid` = '343rfjowfeewf' [ RunTime:0.0308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0134s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0130s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('','1','10','2','94h5aq14ac','2019-09-04 16:02:25') [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0146s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0125s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0132s ]
+
+[ 2019-09-04T16:11:25+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015720s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0168s ]
+SQL: SELECT `id` FROM `sy_user` WHERE `mobile` = '18305165302' LIMIT 1   [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `sy_third_user` [ RunTime:0.0149s ]
+SQL: SELECT `user_id` FROM `sy_third_user` WHERE `openid` = '343rfjowfeewf' LIMIT 1   [ RunTime:0.0185s ]
+SQL: INSERT INTO `sy_user` (`create_time`,`mobile`) VALUES ('2019-09-04 16:11:25','18305165302') [ RunTime:0.0338s ]
+SQL: UPDATE `sy_third_user` SET `user_id`='3' WHERE `openid` = '343rfjowfeewf' [ RunTime:0.0282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0174s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0150s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:11:25') [ RunTime:0.0321s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0211s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0154s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0296s ]
+
+[ 2019-09-04T16:51:31+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0214s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0217s ]
+SQL: SELECT `mobile` FROM `sy_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0281s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0281s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:51:30') [ RunTime:0.0818s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0162s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0196s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0225s ]
+
+[ 2019-09-04T16:51:40+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001697s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003766s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0171s ]
+SQL: SELECT `mobile` FROM `sy_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0144s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:51:39') [ RunTime:0.0318s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0159s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0144s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0192s ]
+
+[ 2019-09-04T16:51:53+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0145s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0129s ]
+SQL: SELECT `mobile` FROM `sy_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0358s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0384s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:51:53') [ RunTime:0.0293s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0130s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0190s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0126s ]
+
+[ 2019-09-04T16:51:55+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000449s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003623s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003119s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0165s ]
+SQL: SELECT `mobile` FROM `sy_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0140s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0135s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:51:55') [ RunTime:0.0276s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0150s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0138s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0194s ]
+
+[ 2019-09-04T16:51:56+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004629s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0181s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0169s ]
+SQL: SELECT `mobile` FROM `sy_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0175s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0310s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:51:56') [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0161s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0794s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0215s ]
+
+[ 2019-09-04T16:51:58+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000286s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0182s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0213s ]
+SQL: SELECT `mobile` FROM `sy_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0155s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0157s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:51:58') [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0211s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0153s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0150s ]
+
+[ 2019-09-04T16:51:59+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003469s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0296s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0140s ]
+SQL: SELECT `mobile` FROM `sy_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0146s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0146s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:51:59') [ RunTime:0.0326s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0144s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0142s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0179s ]
+
+[ 2019-09-04T16:52:01+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000390s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002255s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002701s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0152s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0156s ]
+SQL: SELECT `mobile` FROM `sy_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0149s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:52:01') [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0152s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0157s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0192s ]
+
+[ 2019-09-04T16:52:02+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0209s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0188s ]
+SQL: SELECT `mobile` FROM `sy_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_user_vote` WHERE `user_id` = '3' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `sy_vote_code` [ RunTime:0.0192s ]
+SQL: SELECT `num` FROM `sy_vote_code` WHERE `code` = '94h5aq14ac' AND `mark` = 1 LIMIT 1   [ RunTime:0.0197s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`vote_code`,`add_time`) VALUES ('3','1','10','2','94h5aq14ac','2019-09-04 16:52:02') [ RunTime:0.0335s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0234s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+10 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0221s ]
+SQL: INSERT INTO `sy_user_vote` (`user_id`,`star_id`,`num`,`type`,`add_time`) VALUES ('3','1','20','3','2019-09-04 16:52:02') [ RunTime:0.0307s ]
+SQL: UPDATE `sy_star` SET `vote`=vote+20 WHERE `id` = 1 AND `mark` = 1 [ RunTime:0.0185s ]
+SQL: SELECT `name`,`avatar`,`vote` FROM `sy_star` WHERE `id` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0236s ]
+

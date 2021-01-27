@@ -96,7 +96,7 @@ class LoginService extends Model
             }
         } else if ($identify == 3) {  // 审核人员
             $role_arr = explode(',', $info['role_ids']);   // 4 5
-            if (!in_array(4, $role_arr)) {
+            if (!in_array(3, $role_arr)) {
                 return message("身份不匹配", false, []);
             }
         }

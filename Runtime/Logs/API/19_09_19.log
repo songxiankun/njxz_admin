@@ -1,0 +1,23 @@
+[ 2019-09-19T15:12:50+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003299s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0192s ]
+NOTIC: [8] Undefined index: user_id D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 72 行.
+NOTIC: [8] Undefined index: star_id D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 73 行.
+NOTIC: [8] Undefined index: vote_code D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 74 行.
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 75 行.
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 76 行.
+NOTIC: [8] Undefined index: type D:\web\star_call\web\Application\API\Controller\UserVoteController.class.php 第 77 行.
+

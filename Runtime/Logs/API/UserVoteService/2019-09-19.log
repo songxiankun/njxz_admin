@@ -1,0 +1,2 @@
+[ 2019-09-19T15:12:50+08:00 ] 127.0.0.1 /UserVote/addTicket
+INFO: [UserVoteService]	[加票接口传递的参数:]{"user_id":null,"star_id":null,"vote_code":null,"mobile":null,"openid":null,"type":null}	

@@ -45,8 +45,8 @@ class UserService extends Model
 
         if (isset($data['id']) && $data['id'])
         {
-            $count = $userMod->where(['id' => $data['id'], 'mobile' => $data['mobile']])->count();
-            if ($count) {
+            $count = $userMod->where(['mobile' => $data['mobile']])->count();
+            if ($count > 1) {
                 return message("手机号码已注册", false, []);
             }
         }

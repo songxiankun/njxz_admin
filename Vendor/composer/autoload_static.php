@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit3f32b1621219a5c0ec1f911715562fc7
 {
     public static $prefixLengthsPsr4 = array (
+        'F' => 
+        array (
+            'Firebase\\JWT\\' => 13,
+        ),
         'C' => 
         array (
             'CrazyCodr\\Converters\\' => 21,
@@ -14,6 +18,10 @@ class ComposerStaticInit3f32b1621219a5c0ec1f911715562fc7
     );
 
     public static $prefixDirsPsr4 = array (
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
         'CrazyCodr\\Converters\\' => 
         array (
             0 => __DIR__ . '/..' . '/crazycodr/roman/src',

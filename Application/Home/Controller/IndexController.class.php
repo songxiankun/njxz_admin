@@ -28,7 +28,21 @@ class IndexController extends BaseController
      */
     public function index()
     {
-        $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>【API接口】！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>', 'utf-8');
+        $this->ajaxReturn(message("欢迎使用南京晓庄学院api接口", true, [
+                'TEAM'     =>  array(
+                    'team_user'  => array(
+                        'QQ' => '1281541477',
+                        'WX' => '_kunkun99',
+                        'mobile'    => '13584495195',
+                        'email'     =>  's13584495195@163.com',
+                        'school'    =>  '南京晓庄学院',
+                        'belong'    =>  '信息工程学院',
+                        'number'    =>  '17132521',
+                        'username'  =>  '宋贤坤'
+                    )
+                 ),
+                'currDate' => date("Y-m-d H:i:s", time()),
+            ]));
     }
 
     /**

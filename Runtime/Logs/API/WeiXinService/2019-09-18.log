@@ -1,0 +1,8 @@
+[ 2019-09-18T09:14:06+08:00 ] 127.0.0.1 /Weixin/getJsSdkSignature?url=http://mp.weixin.qq.com/?params=value
+INFO: [WeiXinService]	[微信签名的参数:]{"noncestr":"aRBGhEDE90msAYqo","jsapi_ticket":"HoagFKDcsGMVCIY2vOjf9vV5juc11et1LRzhjs3T74xFeVBQ3fgduyB3KjC1yYZFbitPq1Rzwx1pFdJxa1F23w","timestamp":1568769246,"url":"http:\/\/mp.weixin.qq.com\/?params=value"}	
+[ 2019-09-18T10:16:09+08:00 ] 127.0.0.1 /Weixin/getJsSdkSignature?url=http://mp.weixin.qq.com/?params=value
+INFO: [WeiXinService]	[微信签名的参数:]{"noncestr":"FzhL5mJPltn4fmCY","jsapi_ticket":"HoagFKDcsGMVCIY2vOjf9vV5juc11et1LRzhjs3T74xFeVBQ3fgduyB3KjC1yYZFbitPq1Rzwx1pFdJxa1F23w","timestamp":1568772969,"url":"http:\/\/mp.weixin.qq.com\/?params=value"}	
+[ 2019-09-18T10:20:04+08:00 ] 127.0.0.1 /Weixin/getJsSdkSignature?url=http://mp.weixin.qq.com/?params=value
+INFO: [WeiXinService]	[微信签名的参数:]{"noncestr":"ej0gdKJi2hil4gBO","jsapi_ticket":"HoagFKDcsGMVCIY2vOjf9vV5juc11et1LRzhjs3T74xFeVBQ3fgduyB3KjC1yYZFbitPq1Rzwx1pFdJxa1F23w","timestamp":1568773204,"url":"http:\/\/sy_api.test.com\/Weixin\/getJsSdkSignature?url=http:\/\/mp.weixin.qq.com\/?params=value"}	
+[ 2019-09-18T10:20:42+08:00 ] 127.0.0.1 /Weixin/getJsSdkSignature?url=http://mp.weixin.qq.com/?params=value
+INFO: [WeiXinService]	

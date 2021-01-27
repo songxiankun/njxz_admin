@@ -1,0 +1,220 @@
+[ 2019-09-20T14:47:14+08:00 ] 127.0.0.1 /User/getMyInfo?user_id=2&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0158s ]
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserController.class.php 第 32 行.
+SQL: SELECT th.user_id,th.openid,th.nickname,th.avatar,u.mobile FROM sy_user u INNER JOIN sy_third_user as th ON u.id = th.user_id  WHERE u.id = '2' AND th.type = '1' LIMIT 1   [ RunTime:0.0367s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0177s ]
+SQL: SELECT `user_id`,sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `user_id`,`star_id`,sum(num) as num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 GROUP BY star_id ORDER BY num DESC  [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0170s ]
+SQL: SELECT `name`,`avatar` FROM `sy_star` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0292s ]
+NOTIC: [8] Undefined offset: 0 D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 138 行.
+
+[ 2019-09-20T14:47:41+08:00 ] 127.0.0.1 /User/getMyInfo?user_id=2&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0179s ]
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserController.class.php 第 32 行.
+SQL: SELECT th.user_id,th.openid,th.nickname,th.avatar,u.mobile FROM sy_user u INNER JOIN sy_third_user as th ON u.id = th.user_id  WHERE u.id = '2' AND th.type = '1' LIMIT 1   [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0174s ]
+SQL: SELECT `user_id`,sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0185s ]
+SQL: SELECT `user_id`,`star_id`,sum(num) as num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 GROUP BY star_id ORDER BY num DESC  [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0205s ]
+SQL: SELECT `name`,`avatar` FROM `sy_star` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0157s ]
+NOTIC: [8] Undefined offset: 0 D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 138 行.
+
+[ 2019-09-20T14:48:16+08:00 ] 127.0.0.1 /User/getMyInfo?user_id=2&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0157s ]
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserController.class.php 第 32 行.
+SQL: SELECT th.user_id,th.openid,th.nickname,th.avatar,u.mobile FROM sy_user u INNER JOIN sy_third_user as th ON u.id = th.user_id  WHERE u.id = '2' AND th.type = '1' LIMIT 1   [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0172s ]
+SQL: SELECT `user_id`,sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0162s ]
+SQL: SELECT `user_id`,`star_id`,sum(num) as num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 GROUP BY star_id ORDER BY num DESC  [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0175s ]
+SQL: SELECT `name`,`avatar` FROM `sy_star` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0254s ]
+NOTIC: [8] Undefined offset: 0 D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 138 行.
+
+[ 2019-09-20T14:52:37+08:00 ] 127.0.0.1 /User/getMyInfo?user_id=2&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0171s ]
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserController.class.php 第 32 行.
+SQL: SELECT th.user_id,th.openid,th.nickname,th.avatar,u.mobile FROM sy_user u INNER JOIN sy_third_user as th ON u.id = th.user_id  WHERE u.id = '2' AND th.type = '1' LIMIT 1   [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0156s ]
+SQL: SELECT `user_id`,sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0164s ]
+SQL: SELECT `user_id`,`star_id`,sum(num) as num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 GROUP BY star_id ORDER BY num DESC  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0161s ]
+SQL: SELECT `name`,`avatar` FROM `sy_star` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0163s ]
+SQL: SELECT * FROM `sy_user_vote` WHERE `user_id` = '2' AND `add_time` BETWEEN '2019-09-10 00:00:00' AND '2019-09-27 23:59:59' AND `type` = 2 AND `mark` = 1  [ RunTime:0.0155s ]
+
+[ 2019-09-20T14:54:16+08:00 ] 127.0.0.1 /User/getMyInfo?user_id=2&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserController.class.php 第 32 行.
+SQL: SELECT th.user_id,th.openid,th.nickname,th.avatar,u.mobile FROM sy_user u INNER JOIN sy_third_user as th ON u.id = th.user_id  WHERE u.id = '2' AND th.type = '1' LIMIT 1   [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0170s ]
+SQL: SELECT `user_id`,sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0165s ]
+SQL: SELECT `user_id`,`star_id`,sum(num) as num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 GROUP BY star_id ORDER BY num DESC  [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0203s ]
+SQL: SELECT `name`,`avatar` FROM `sy_star` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0171s ]
+SQL: SELECT sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `add_time` BETWEEN '2019-09-10 00:00:00' AND '2019-09-27 23:59:59' AND `type` = 2 AND `mark` = 1  [ RunTime:0.0342s ]
+
+[ 2019-09-20T14:54:58+08:00 ] 127.0.0.1 /User/getMyInfo?user_id=2&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0177s ]
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserController.class.php 第 32 行.
+SQL: SELECT th.user_id,th.openid,th.nickname,th.avatar,u.mobile FROM sy_user u INNER JOIN sy_third_user as th ON u.id = th.user_id  WHERE u.id = '2' AND th.type = '1' LIMIT 1   [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0187s ]
+SQL: SELECT `user_id`,sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0172s ]
+SQL: SELECT `user_id`,`star_id`,sum(num) as num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 GROUP BY star_id ORDER BY num DESC  [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0201s ]
+SQL: SELECT `name`,`avatar` FROM `sy_star` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0164s ]
+SQL: SELECT sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `add_time` BETWEEN '2019-09-10 00:00:00' AND '2019-09-27 23:59:59' AND `type` = 2 AND `mark` = 1  [ RunTime:0.0172s ]
+NOTIC: [8] Undefined index: vote_num D:\web\star_call\web\Application\API\Service\UserService.class.php 第 59 行.
+NOTIC: [8] Undefined offset: 0 D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 138 行.
+
+[ 2019-09-20T14:55:26+08:00 ] 127.0.0.1 /User/getMyInfo?user_id=2&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0151s ]
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserController.class.php 第 32 行.
+SQL: SELECT th.user_id,th.openid,th.nickname,th.avatar,u.mobile FROM sy_user u INNER JOIN sy_third_user as th ON u.id = th.user_id  WHERE u.id = '2' AND th.type = '1' LIMIT 1   [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0212s ]
+SQL: SELECT `user_id`,sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0161s ]
+SQL: SELECT `user_id`,`star_id`,sum(num) as num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 GROUP BY star_id ORDER BY num DESC  [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0142s ]
+SQL: SELECT `name`,`avatar` FROM `sy_star` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0199s ]
+SQL: SELECT sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `add_time` BETWEEN '2019-09-10 00:00:00' AND '2019-09-27 23:59:59' AND `type` = 2 AND `mark` = 1  [ RunTime:0.0148s ]
+
+[ 2019-09-20T14:56:00+08:00 ] 127.0.0.1 /User/getMyInfo?user_id=2&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.2178s ]
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserController.class.php 第 32 行.
+SQL: SELECT th.user_id,th.openid,th.nickname,th.avatar,u.mobile FROM sy_user u INNER JOIN sy_third_user as th ON u.id = th.user_id  WHERE u.id = '2' AND th.type = '1' LIMIT 1   [ RunTime:0.4228s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0333s ]
+SQL: SELECT `user_id`,sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT `user_id`,`star_id`,sum(num) as num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 GROUP BY star_id ORDER BY num DESC  [ RunTime:0.0197s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0160s ]
+SQL: SELECT `name`,`avatar` FROM `sy_star` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `add_time` BETWEEN '2019-09-10 00:00:00' AND '2019-09-27 23:59:59' AND `type` = 2 AND `mark` = 1  [ RunTime:0.0126s ]
+NOTIC: [8] Undefined offset: 0 D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 138 行.
+
+[ 2019-09-20T14:56:44+08:00 ] 127.0.0.1 /User/getMyInfo?user_id=2&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0322s ]
+NOTIC: [8] Undefined index: openid D:\web\star_call\web\Application\API\Controller\UserController.class.php 第 32 行.
+SQL: SELECT th.user_id,th.openid,th.nickname,th.avatar,u.mobile FROM sy_user u INNER JOIN sy_third_user as th ON u.id = th.user_id  WHERE u.id = '2' AND th.type = '1' LIMIT 1   [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0174s ]
+SQL: SELECT `user_id`,sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 LIMIT 1   [ RunTime:0.0184s ]
+SQL: SELECT `user_id`,`star_id`,sum(num) as num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` = 2 AND `mark` = 1 GROUP BY star_id ORDER BY num DESC  [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `sy_star` [ RunTime:0.0184s ]
+SQL: SELECT `name`,`avatar` FROM `sy_star` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0191s ]
+SQL: SELECT sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `add_time` BETWEEN '2019-09-16 17:25:25' AND '2019-09-27 23:59:59' AND `type` = 2 AND `mark` = 1  [ RunTime:0.0294s ]
+NOTIC: [8] Undefined offset: 0 D:\web\star_call\web\Application\API\Controller\APIBaseController.class.php 第 138 行.
+

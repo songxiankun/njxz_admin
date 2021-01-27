@@ -1,0 +1,48 @@
+[ 2020-07-18T21:00:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant API_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 16 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001896s ]
+
+[ 2020-07-18T21:01:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant API_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 16 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+

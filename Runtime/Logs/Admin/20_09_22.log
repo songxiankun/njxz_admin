@@ -1,0 +1,123 @@
+[ 2020-09-22T16:38:44+08:00 ] 10.10.154.248 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+
+[ 2020-09-22T16:39:44+08:00 ] 10.10.154.248 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0072s ]
+ERR: Connection timed out
+
+[ 2020-09-22T16:39:44+08:00 ] 10.10.154.248 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+
+[ 2020-09-22T16:41:31+08:00 ] 10.10.154.248 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+
+[ 2020-09-22T16:41:31+08:00 ] 10.10.154.248 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2020-09-22T16:41:31+08:00 ] 10.10.154.248 /Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+

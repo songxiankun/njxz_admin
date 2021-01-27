@@ -1,0 +1,1746 @@
+[ 2020-10-06T11:48:37+08:00 ] 10.10.176.163 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+
+[ 2020-10-06T11:48:37+08:00 ] 10.10.176.163 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2020-10-06T11:48:37+08:00 ] 10.10.176.163 /Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000188s ]
+
+[ 2020-10-06T11:48:45+08:00 ] 10.10.176.163 /Login/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `username` = 'admin' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW FIELDS FROM njxz_admin [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /www/wwwroot/admin.njxz.edu.com/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/wwwroot/admin.njxz.edu.com/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `njxz_admin` SET `login_num`='836',`login_ip`='10.10.176.163',`login_time`='1601956125' WHERE ( id=1 ) [ RunTime:0.0555s ]
+NOTIC: [2] Declaration of Admin\Model\AdminLogModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminLogModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_log` [ RunTime:0.0146s ]
+SQL: INSERT INTO `njxz_admin_log` (`title`,`content`,`login_ip`,`city_name`,`add_user`,`add_time`) VALUES ('系统登陆','您好【超级管理员】,您于【2020-10-06 11:48:45】成功登录系统','36.152.118.91','江苏省南京市 移动','1','1601956125') [ RunTime:0.0587s ]
+
+[ 2020-10-06T11:48:46+08:00 ] 10.10.176.163 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2020-10-06T11:48:46+08:00 ] 10.10.176.163 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_repair_application` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_repair_application` WHERE ( add_time between 1601913600 and 1601999999 and mark=1 AND mark=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_repair_application` WHERE `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_order` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_order` WHERE ( add_time between 1601913600 and 1601999999 and mark=1 and status = 2 AND mark=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_order` WHERE ( mark=1 and status = 2 AND mark=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_order` WHERE ( add_time between 1601913600 and 1601999999 and mark=1 and status = 3 AND mark=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_order` WHERE ( mark=1 and status = 3 AND mark=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_order` WHERE ( add_time between 1601913600 and 1601999999 and mark=1 AND mark=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_order` WHERE `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2020-10-06T11:48:46+08:00 ] 10.10.176.163 /Menu/getMenuList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [2] Declaration of Admin\Controller\MenuController::edit() should be compatible with Admin\Controller\BaseController::edit($data = Array) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/MenuController.class.php 第 9 行.
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Menu/getMenuList' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('18','19','20','21','156','157','301')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Service\MenuService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+NOTIC: [2] Declaration of Admin\Service\MenuService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('154','155') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('162','335') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 161 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('18','19','20','21','156','157','301') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 17 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('23','24','25','26','145','146','147','165') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 22 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('28','29','30','31','143','166') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 27 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('149','150','151','152','167','194') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 148 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('33','34','35','36','195') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 32 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('133','134','135','136','168') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 132 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('159','160') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 158 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('55','56','57','58','163') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 49 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('15','16','164') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 14 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('141','142','182') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 140 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('59','60','61','62','172') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 50 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('64','65','66','67','173') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 63 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('68','69','70','71','174','196') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 46 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('73','74','75','76','175') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 72 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('202','203','204','205','206') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 201 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('208','209','210','211','212') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 207 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('504','505','506','507','508','509') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 503 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('511','512','513','514','515') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 510 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('517','518','519','520','521','522') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 516 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('524','525','526','527','528') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 523 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('532','553','533','534','535','536') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 531 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('538','539','540','541','542','543','544') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 537 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('546','547','548','549','550','551','552') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 545 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+
+[ 2020-10-06T11:48:52+08:00 ] 10.10.176.163 /RepairApply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/RepairApply/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('546','547','548','549','550','551','552')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_repair_application` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_repair_application` [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined variable: imgUrl /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014396s ]
+NOTIC: [2] Use of undefined constant 批量删除 - assumed '批量删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/54ceb7c5de5399d21f096612c4871d1b.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000007s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.040140s ]
+NOTIC: [8] Undefined variable: param /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/13971a41672da7b93b22ef59f9a4db50.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016712s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.023505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.040148s ]
+NOTIC: [2] Use of undefined constant 编辑 - assumed '编辑' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/54ceb7c5de5399d21f096612c4871d1b.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000005s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.041030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000683s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.040311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.040921s ]
+NOTIC: [2] Use of undefined constant 删除 - assumed '删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/54ceb7c5de5399d21f096612c4871d1b.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.042160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001046s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.042042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001062s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.042055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000005s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.042692s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000446s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.042191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.042564s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/wwwroot/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php:95) /www/wwwroot/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/wwwroot/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php:95) /www/wwwroot/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/wwwroot/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php:95) /www/wwwroot/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000222s ]
+
+[ 2020-10-06T11:48:53+08:00 ] 10.10.176.163 /RepairApply/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/RepairApply/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('546','547','548','549','550','551','552')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_repair_application` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_repair_application` [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `njxz_repair_application` WHERE `mark` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_repair_application` WHERE `id` = 151 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_repair_application` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_repair_application` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 188 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: add_user /www/wwwroot/admin.njxz.edu.com/Application/Common/Model/CBaseModel.class.php 第 183 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_admin_org` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_admin_dep` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `mark` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_engin_room` WHERE `mark` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_repair_application` WHERE `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2020-10-06T11:48:53+08:00 ] 10.10.176.163 /Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Order/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('538','539','540','541','542','543','544')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_order` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_order` [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined variable: imgUrl /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000008s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.000865s ]
+NOTIC: [2] Use of undefined constant 批量删除 - assumed '批量删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/712bbf3c2ee727b5fee2b951ef509dd7.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001426s ]
+NOTIC: [8] Undefined variable: param /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/13971a41672da7b93b22ef59f9a4db50.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000358s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001327s ]
+NOTIC: [2] Use of undefined constant 详情 - assumed '详情' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/712bbf3c2ee727b5fee2b951ef509dd7.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000494s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001896s ]
+NOTIC: [2] Use of undefined constant 删除 - assumed '删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/712bbf3c2ee727b5fee2b951ef509dd7.php 第 51 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000277s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000292s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000214s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000192s ]
+
+[ 2020-10-06T11:48:54+08:00 ] 10.10.176.163 /Order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Order/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('538','539','540','541','542','543','544')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_order` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_order` [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `njxz_order` WHERE `mark` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_order` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SELECT `realname` FROM `njxz_admin` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_order` WHERE `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2020-10-06T11:48:54+08:00 ] 10.10.176.163 /User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/User/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('532','553','533','534','535','536')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_user` [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Admin\Service\UserService::edit($data, &$error = '', $is_sql = false) should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/UserService.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `njxz_user` [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined variable: imgUrl /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000008s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.000887s ]
+NOTIC: [2] Use of undefined constant 添加维修人员 - assumed '添加维修人员' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/aaaf2a211d3c474681d5eeb159d8947f.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001468s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000365s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001370s ]
+NOTIC: [2] Use of undefined constant 批量删除 - assumed '批量删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/aaaf2a211d3c474681d5eeb159d8947f.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001824s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000277s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001718s ]
+NOTIC: [2] Use of undefined constant 导入数据 - assumed '导入数据' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/aaaf2a211d3c474681d5eeb159d8947f.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000274s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002062s ]
+NOTIC: [2] Use of undefined constant 编辑 - assumed '编辑' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/aaaf2a211d3c474681d5eeb159d8947f.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000256s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002407s ]
+NOTIC: [2] Use of undefined constant 查看详情 - assumed '查看详情' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/aaaf2a211d3c474681d5eeb159d8947f.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002838s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000241s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002715s ]
+NOTIC: [2] Use of undefined constant 删除 - assumed '删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/aaaf2a211d3c474681d5eeb159d8947f.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000238s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003021s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000253s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000251s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000192s ]
+
+[ 2020-10-06T11:48:54+08:00 ] 10.10.176.163 /User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/User/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('532','553','533','534','535','536')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_user` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Service\UserService::edit($data, &$error = '', $is_sql = false) should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Service/UserService.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `njxz_user` [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `njxz_user` WHERE `mark` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_user` WHERE `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2020-10-06T11:48:57+08:00 ] 10.10.176.163 /Devices/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Devices/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('504','505','506','507','508','509')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_devices` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_devices` [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000018s ]
+NOTIC: [8] Undefined variable: imgUrl /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015924s ]
+NOTIC: [2] Use of undefined constant 添加设备 - assumed '添加设备' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/bc3ac77670aca888743b3001147148c1.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000005s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016636s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000334s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016557s ]
+NOTIC: [2] Use of undefined constant 批量删除 - assumed '批量删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/bc3ac77670aca888743b3001147148c1.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000280s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016912s ]
+NOTIC: [2] Use of undefined constant 导入数据 - assumed '导入数据' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/bc3ac77670aca888743b3001147148c1.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000269s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017251s ]
+NOTIC: [2] Use of undefined constant 编辑 - assumed '编辑' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/bc3ac77670aca888743b3001147148c1.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000239s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017558s ]
+NOTIC: [2] Use of undefined constant 删除 - assumed '删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/bc3ac77670aca888743b3001147148c1.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018022s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000273s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017897s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000287s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000211s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000205s ]
+
+[ 2020-10-06T11:48:57+08:00 ] 10.10.176.163 /Devices/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Devices/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('504','505','506','507','508','509')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_devices` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_devices` [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `njxz_devices` WHERE `mark` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_devices` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_device_type` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/DevicesModel.class.php 第 73 行.
+SQL: SELECT * FROM `njxz_devices` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_device_type` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/DevicesModel.class.php 第 73 行.
+SQL: SELECT * FROM `njxz_devices` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_device_type` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/DevicesModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_devices` WHERE `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2020-10-06T11:48:58+08:00 ] 10.10.176.163 /DevicesType/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/DevicesType/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('511','512','513','514','515')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_device_type` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_device_type` [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000018s ]
+NOTIC: [8] Undefined variable: imgUrl /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000008s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.000811s ]
+NOTIC: [2] Use of undefined constant 添加设备类型 - assumed '添加设备类型' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/f7a1d975b8dc71989fab8fce150dbb60.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000291s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001203s ]
+NOTIC: [2] Use of undefined constant 编辑 - assumed '编辑' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/f7a1d975b8dc71989fab8fce150dbb60.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000241s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001514s ]
+NOTIC: [2] Use of undefined constant 删除 - assumed '删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/f7a1d975b8dc71989fab8fce150dbb60.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001978s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000240s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001822s ]
+NOTIC: [2] Use of undefined constant 添加 - assumed '添加' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/f7a1d975b8dc71989fab8fce150dbb60.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000511s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000525s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002891s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000214s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000226s ]
+
+[ 2020-10-06T11:48:58+08:00 ] 10.10.176.163 /DevicesType/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/DevicesType/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('511','512','513','514','515')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_device_type` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_device_type` [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_device_type` WHERE `parent_id` = 0 AND `mark` = 1 ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_device_type` WHERE `parent_id` = 1 AND `mark` = 1 ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_device_type` WHERE `parent_id` = 2 AND `mark` = 1 ORDER BY id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: list /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/DevicesTypeModel.class.php 第 39 行.
+SQL: SELECT * FROM `njxz_device_type` WHERE `parent_id` = 3 AND `mark` = 1 ORDER BY id asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/DevicesTypeModel.class.php 第 39 行.
+SQL: SELECT * FROM `njxz_device_type` WHERE `parent_id` = 4 AND `mark` = 1 ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `njxz_device_type` WHERE `parent_id` = 5 AND `mark` = 1 ORDER BY id asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/DevicesTypeModel.class.php 第 39 行.
+SQL: SELECT * FROM `njxz_device_type` WHERE `parent_id` = 6 AND `mark` = 1 ORDER BY id asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: list /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/DevicesTypeModel.class.php 第 39 行.
+
+[ 2020-10-06T11:48:58+08:00 ] 10.10.176.163 /EnginRoom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/EnginRoom/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('517','518','519','520','521','522')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined variable: imgUrl /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000008s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.000850s ]
+NOTIC: [2] Use of undefined constant 添加机房 - assumed '添加机房' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/7ee737b5f3297f2220042b5846141d5e.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000324s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001277s ]
+NOTIC: [2] Use of undefined constant 批量删除 - assumed '批量删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/7ee737b5f3297f2220042b5846141d5e.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001730s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000275s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001623s ]
+NOTIC: [2] Use of undefined constant 编辑 - assumed '编辑' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/7ee737b5f3297f2220042b5846141d5e.php 第 51 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000240s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001931s ]
+NOTIC: [2] Use of undefined constant 删除 - assumed '删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/7ee737b5f3297f2220042b5846141d5e.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000278s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000293s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000212s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000189s ]
+
+[ 2020-10-06T11:48:59+08:00 ] 10.10.176.163 /EnginRoom/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/EnginRoom/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('517','518','519','520','521','522')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_engin_room` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `njxz_engin_room` WHERE `mark` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/EnginRoomModel.class.php 第 62 行.
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/EnginRoomModel.class.php 第 62 行.
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/EnginRoomModel.class.php 第 62 行.
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 101 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/EnginRoomModel.class.php 第 62 行.
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/EnginRoomModel.class.php 第 62 行.
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/EnginRoomModel.class.php 第 62 行.
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/EnginRoomModel.class.php 第 62 行.
+SQL: SELECT `name` FROM `njxz_building` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: upd_user /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/EnginRoomModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_engin_room` WHERE `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2020-10-06T11:48:59+08:00 ] 10.10.176.163 /Building/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Building/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('524','525','526','527','528')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000018s ]
+NOTIC: [8] Undefined variable: imgUrl /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000008s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.000826s ]
+NOTIC: [2] Use of undefined constant 添加楼区 - assumed '添加楼区' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/3036e5fb525533e5c7b83d58acbdc93c.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000288s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001229s ]
+NOTIC: [2] Use of undefined constant 批量删除 - assumed '批量删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/3036e5fb525533e5c7b83d58acbdc93c.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001710s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000272s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001571s ]
+NOTIC: [2] Use of undefined constant 编辑 - assumed '编辑' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/3036e5fb525533e5c7b83d58acbdc93c.php 第 51 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000273s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001912s ]
+NOTIC: [2] Use of undefined constant 删除 - assumed '删除' (this will throw an Error in a future version of PHP) /www/wwwroot/admin.njxz.edu.com/Runtime/Cache/Admin/3036e5fb525533e5c7b83d58acbdc93c.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000003s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000239s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000253s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000004s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002659s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000212s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000187s ]
+
+[ 2020-10-06T11:48:59+08:00 ] 10.10.176.163 /Building/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Constant MAIN_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /www/wwwroot/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: simple /www/wwwroot/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /www/wwwroot/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Building/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('524','525','526','527','528')  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `njxz_building` [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `njxz_building` WHERE `mark` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_building` WHERE `mark` = 1 LIMIT 1   [ RunTime:0.0001s ]
+

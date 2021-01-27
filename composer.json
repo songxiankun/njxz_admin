@@ -17,7 +17,8 @@
       "ext-curl": "*",
       "ext-json": "*",
       "ext-fileinfo": "*",
-      "ext-mbstring": "*"
+      "ext-mbstring": "*",
+        "firebase/php-jwt": "dev-master"
     },
     "minimum-stability": "dev"
 }

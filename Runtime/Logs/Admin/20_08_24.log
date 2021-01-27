@@ -1,0 +1,1267 @@
+[ 2020-08-24T18:42:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002291s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+
+[ 2020-08-24T18:42:22+08:00 ] 127.0.0.1 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2020-08-24T18:42:22+08:00 ] 127.0.0.1 /Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2020-08-24T18:42:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+
+[ 2020-08-24T18:42:51+08:00 ] 127.0.0.1 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2020-08-24T18:42:51+08:00 ] 127.0.0.1 /Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2020-08-24T18:42:57+08:00 ] 127.0.0.1 /Login/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/AdminService.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `njxz_admin` WHERE `username` = 'admin' AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW FIELDS FROM njxz_admin [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /Applications/MxSrvs/www/admin.njxz.edu.com/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MxSrvs/www/admin.njxz.edu.com/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `njxz_admin` SET `login_num`='813',`login_ip`='127.0.0.1',`login_time`='1598265777' WHERE ( id=1 ) [ RunTime:0.0033s ]
+NOTIC: [2] Declaration of Admin\Model\AdminLogModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminLogModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_log` [ RunTime:0.0025s ]
+SQL: INSERT INTO `njxz_admin_log` (`title`,`content`,`login_ip`,`city_name`,`add_user`,`add_time`) VALUES ('系统登陆','您好【超级管理员】,您于【2020-08-24 18:42:57】成功登录系统','183.212.73.136','江苏省苏州市 移通','1','1598265777') [ RunTime:0.0026s ]
+
+[ 2020-08-24T18:42:59+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0011s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: type /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2020-08-24T18:42:59+08:00 ] 127.0.0.1 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0010s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: userNum /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 63 行.
+NOTIC: [8] Undefined variable: userNum2 /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 65 行.
+NOTIC: [8] Undefined variable: productNum /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 77 行.
+NOTIC: [8] Undefined variable: productNum2 /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 79 行.
+NOTIC: [8] Undefined variable: pointsProductNum /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 91 行.
+NOTIC: [8] Undefined variable: pointsProductNum2 /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 93 行.
+NOTIC: [8] Undefined variable: contractNum /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 105 行.
+NOTIC: [8] Undefined variable: contractNum2 /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 107 行.
+NOTIC: [8] Undefined variable: orderNum /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 119 行.
+NOTIC: [8] Undefined variable: orderNum2 /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 121 行.
+NOTIC: [8] Undefined variable: settlementOrderNum /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 133 行.
+NOTIC: [8] Undefined variable: settlementOrderNum2 /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 135 行.
+NOTIC: [8] Undefined variable: pointsOrderNum /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 147 行.
+NOTIC: [8] Undefined variable: pointsOrderNum2 /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 149 行.
+NOTIC: [8] Undefined variable: invoiceOrderNum /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 161 行.
+NOTIC: [8] Undefined variable: invoiceOrderNum2 /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2020-08-24T18:43:00+08:00 ] 127.0.0.1 /Menu/getMenuList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2] Declaration of Admin\Controller\MenuController::edit() should be compatible with Admin\Controller\BaseController::edit($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/MenuController.class.php 第 9 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: type /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Menu/getMenuList' AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('18','19','20','21','156','157','301')  [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Admin\Service\MenuService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+NOTIC: [2] Declaration of Admin\Service\MenuService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('154','155') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('162','335') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 161 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('18','19','20','21','156','157','301') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 17 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('23','24','25','26','145','146','147','165') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 22 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('28','29','30','31','143','166') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 27 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('149','150','151','152','167','194') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 148 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('33','34','35','36','195') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 32 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('133','134','135','136','168') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 132 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('159','160') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 158 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('55','56','57','58','163') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 49 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('15','16','164') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 14 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('141','142','182') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 140 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('59','60','61','62','172') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 50 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('64','65','66','67','173') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 63 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('68','69','70','71','174','196') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 46 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('73','74','75','76','175') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 72 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('202','203','204','205','206') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 201 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('208','209','210','211','212') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 207 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('504','505','506','507','508','509') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 503 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('511','512','513','514','515') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 510 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('517','518','519','520','521','522') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 516 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('524','525','526','527','528') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 523 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('532','533','534','535','536') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 531 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('538','539','540','541','542','543','544') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 537 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `njxz_menu` WHERE `id` IN ('546','547','548','549','550','551','552') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 545 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+NOTIC: [8] Undefined index: to_url /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 118 行.
+
+[ 2020-08-24T18:43:11+08:00 ] 127.0.0.1 /Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2] Declaration of Admin\Controller\MenuController::edit() should be compatible with Admin\Controller\BaseController::edit($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/MenuController.class.php 第 9 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: type /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Menu/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('18','19','20','21','156','157','301')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Admin\Service\MenuService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+NOTIC: [2] Declaration of Admin\Service\MenuService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: imgUrl /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011329s ]
+NOTIC: [2] Use of undefined constant 添加菜单 - assumed '添加菜单' (this will throw an Error in a future version of PHP) /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/6f02fbe67356c8763b1d399a4f50447b.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.022050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005195s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.014988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020024s ]
+NOTIC: [2] Use of undefined constant 编辑 - assumed '编辑' (this will throw an Error in a future version of PHP) /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/6f02fbe67356c8763b1d399a4f50447b.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.027074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004123s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.024851s ]
+NOTIC: [2] Use of undefined constant 删除 - assumed '删除' (this will throw an Error in a future version of PHP) /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/6f02fbe67356c8763b1d399a4f50447b.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031743s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003987s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.029585s ]
+NOTIC: [2] Use of undefined constant 添加 - assumed '添加' (this will throw an Error in a future version of PHP) /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/6f02fbe67356c8763b1d399a4f50447b.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002720s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.032994s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003114s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.033360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.041148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004926s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.034256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.039119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2020-08-24T18:43:11+08:00 ] 127.0.0.1 /Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [2] Declaration of Admin\Controller\MenuController::edit() should be compatible with Admin\Controller\BaseController::edit($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/MenuController.class.php 第 9 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: type /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Menu/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('18','19','20','21','156','157','301')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Admin\Service\MenuService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+NOTIC: [2] Declaration of Admin\Service\MenuService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 0 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 1 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 6 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 153 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 154 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 155 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 161 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 162 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 335 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 7 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 17 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 18 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 19 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 20 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 21 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 156 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 157 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 301 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 22 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 23 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 24 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 25 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 26 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 145 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 146 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 147 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 165 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 27 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 28 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 29 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 30 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 31 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 143 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 166 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 148 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 149 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 150 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 151 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 152 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 167 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 194 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 32 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 33 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 34 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 35 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 36 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 195 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 132 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 133 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 134 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 135 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 136 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 168 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 158 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 159 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 160 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 9 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 49 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 55 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 56 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 57 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 58 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 163 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 97 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 14 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 15 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 16 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 164 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 140 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 141 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 142 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 182 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 4 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 10 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 50 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 59 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 60 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 61 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 62 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 172 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 63 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 64 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 65 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 66 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 67 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 173 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 11 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 46 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 68 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 69 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 70 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 71 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 174 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 196 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 72 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 73 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 74 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 75 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 76 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 175 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 99 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 201 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 202 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 203 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 204 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 205 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 206 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 207 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 208 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 209 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 210 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 211 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 212 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 501 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 502 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 503 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 504 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 505 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 506 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 507 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 508 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 509 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 510 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 511 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 512 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 513 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 514 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 515 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 516 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 517 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 518 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 519 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 520 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 521 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 522 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 523 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 524 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 525 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 526 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 527 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 528 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 529 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 530 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 531 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 532 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 533 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 534 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 535 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 536 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 537 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 538 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 539 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 540 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 541 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 542 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 543 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 544 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 545 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 546 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 547 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 548 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 549 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 550 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 551 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 552 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+
+[ 2020-08-24T18:43:14+08:00 ] 127.0.0.1 /Menu/edit?id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Constant MAIN_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 10 行.
+NOTIC: [8] Constant IMG_URL already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 11 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 13 行.
+NOTIC: [8] Constant FILE_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 14 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Common/Conf/config.inc.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2] Declaration of Admin\Controller\MenuController::edit() should be compatible with Admin\Controller\BaseController::edit($data = Array) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/MenuController.class.php 第 9 行.
+NOTIC: [8] Undefined index: simple /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Controller/BaseController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `njxz_admin_position` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `njxz_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminOrgModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_org` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminDepModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_dep` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminModel.class.php 第 90 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/AdminRoleModel.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `njxz_admin_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `type` = 4 AND `url` = '/Menu/edit' AND `mark` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `auth` FROM `njxz_menu` WHERE `id` IN ('18','19','20','21','156','157','301')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Admin\Service\MenuService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+NOTIC: [2] Declaration of Admin\Service\MenuService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Service/MenuService.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `njxz_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 0 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 1 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 6 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 153 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 154 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 155 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 161 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 162 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 335 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 7 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 17 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 18 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 19 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 20 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 21 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 156 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 157 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 301 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 22 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 23 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 24 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 25 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 26 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 145 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 146 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 147 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 165 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 27 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 28 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 29 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 30 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 31 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 143 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 166 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 148 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 149 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 150 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 151 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 152 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 167 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 194 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 32 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 33 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 34 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 35 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 36 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 195 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 132 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 133 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 134 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 135 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 136 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 168 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 158 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 159 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 160 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 9 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 49 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 55 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 56 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 57 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 58 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 163 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 97 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 14 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 15 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 16 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 164 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 140 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 141 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 142 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 182 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 4 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 10 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 50 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 59 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 60 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 61 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 62 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 172 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 63 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 64 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 65 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 66 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 67 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 173 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 11 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 46 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 68 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 69 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 70 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 71 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 174 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 196 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 72 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 73 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 74 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 75 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 76 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 175 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 99 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 201 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 202 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 203 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 204 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 205 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 206 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 207 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 208 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 209 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 210 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 211 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 212 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 501 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 502 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 503 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 504 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 505 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 506 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 507 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 508 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 509 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 510 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 511 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 512 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 513 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 514 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 515 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 516 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 517 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 518 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 519 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 520 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 521 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 522 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 523 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 524 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 525 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 526 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 527 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 528 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 529 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 530 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 531 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 532 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 533 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 534 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 535 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 536 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 537 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 538 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 539 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 540 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 541 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 542 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 543 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 544 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 545 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 546 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 547 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 548 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 549 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 550 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 551 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+SQL: SELECT * FROM `njxz_menu` WHERE `parent_id` = 552 AND `mark` = 1 ORDER BY sort_order asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: list /Applications/MxSrvs/www/admin.njxz.edu.com/Application/Admin/Model/MenuModel.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: imgUrl /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004173s ]
+NOTIC: [8] Undefined index: id /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 3 行.
+NOTIC: [8] Undefined index: name /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 8 行.
+NOTIC: [8] Undefined index: icon /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 14 行.
+NOTIC: [8] Undefined index: icon /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 17 行.
+NOTIC: [8] Undefined index: type /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005849s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002705s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018345s ]
+NOTIC: [8] Undefined index: url /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 39 行.
+NOTIC: [8] Undefined index: param /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 45 行.
+NOTIC: [8] Undefined index: auth /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 53 行.
+NOTIC: [8] Undefined index: sort_order /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 59 行.
+NOTIC: [2] Use of undefined constant is_show - assumed 'is_show' (this will throw an Error in a future version of PHP) /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.022544s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005668s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.024898s ]
+NOTIC: [2] Use of undefined constant is_public - assumed 'is_public' (this will throw an Error in a future version of PHP) /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 73 行.
+NOTIC: [8] Undefined index: is_public /Applications/MxSrvs/www/admin.njxz.edu.com/Runtime/Cache/Admin/40c8d87836328b989abc66c7ac3c0b44.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.028299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002731s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.028614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003114s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.028977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001876s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.029692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.031506s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MxSrvs/www/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php:95) /Applications/MxSrvs/www/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MxSrvs/www/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php:95) /Applications/MxSrvs/www/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MxSrvs/www/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php:95) /Applications/MxSrvs/www/admin.njxz.edu.com/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+

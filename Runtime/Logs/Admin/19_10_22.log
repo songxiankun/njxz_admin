@@ -1,0 +1,615 @@
+[ 2019-10-22T14:29:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013314s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019273s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) D:\web\star_call\web\Application\Admin\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: simple D:\web\star_call\web\Application\Admin\Controller\BaseController.class.php 第 65 行.
+
+[ 2019-10-22T14:29:17+08:00 ] 127.0.0.1 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) D:\web\star_call\web\Application\Admin\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined index: simple D:\web\star_call\web\Application\Admin\Controller\BaseController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `sy_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0147s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') D:\web\star_call\web\Application\Admin\Service\AdminService.class.php 第 13 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) D:\web\star_call\web\Application\Admin\Service\AdminService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.028854s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.029013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014084s ]
+
+[ 2019-10-22T14:29:18+08:00 ] 127.0.0.1 /Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) D:\web\star_call\web\Application\Admin\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined index: simple D:\web\star_call\web\Application\Admin\Controller\BaseController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `sy_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0195s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') D:\web\star_call\web\Application\Admin\Service\AdminService.class.php 第 13 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) D:\web\star_call\web\Application\Admin\Service\AdminService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2019-10-22T14:29:23+08:00 ] 127.0.0.1 /Login/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [2] Declaration of Admin\Controller\LoginController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) D:\web\star_call\web\Application\Admin\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined index: simple D:\web\star_call\web\Application\Admin\Controller\BaseController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `sy_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0166s ]
+NOTIC: [2] Declaration of Admin\Service\AdminService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') D:\web\star_call\web\Application\Admin\Service\AdminService.class.php 第 13 行.
+NOTIC: [2] Declaration of Admin\Service\AdminService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) D:\web\star_call\web\Application\Admin\Service\AdminService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sy_admin` WHERE `username` = 'admin' AND `mark` = 1 LIMIT 1   [ RunTime:0.0181s ]
+SQL: SHOW FIELDS FROM sy_admin [ RunTime:0.0338s ]
+NOTIC: [8] Undefined index: validate D:\web\star_call\web\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\web\star_call\web\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sy_admin` SET `login_num`='676',`login_ip`='127.0.0.1',`login_time`='1571725763' WHERE ( id=1 ) [ RunTime:0.0221s ]
+SQL: SELECT * FROM `sy_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0184s ]
+
+[ 2019-10-22T14:29:24+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) D:\web\star_call\web\Application\Admin\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: simple D:\web\star_call\web\Application\Admin\Controller\BaseController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `sy_admin_position` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `sy_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0174s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminOrgModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_org` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `sy_admin_org` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0309s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0289s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0159s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminDepModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_dep` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `sy_admin_dep` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `sy_admin_dep` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0212s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: type D:\web\star_call\web\Application\Admin\Model\AdminModel.class.php 第 96 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminRoleModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_role` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `sy_admin_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0322s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2019-10-22T14:29:25+08:00 ] 127.0.0.1 /Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\BaseController::index($data = Array) D:\web\star_call\web\Application\Admin\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: simple D:\web\star_call\web\Application\Admin\Controller\BaseController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `sy_admin_position` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sy_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0187s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminOrgModel.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `sy_admin_org` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0185s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminDepModel.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `sy_admin_dep` [ RunTime:0.0235s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0226s ]
+NOTIC: [8] Undefined index: type D:\web\star_call\web\Application\Admin\Model\AdminModel.class.php 第 96 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminRoleModel.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `sy_admin_role` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined variable: userNum D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 63 行.
+NOTIC: [8] Undefined variable: userNum2 D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 65 行.
+NOTIC: [8] Undefined variable: productNum D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 77 行.
+NOTIC: [8] Undefined variable: productNum2 D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 79 行.
+NOTIC: [8] Undefined variable: pointsProductNum D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 91 行.
+NOTIC: [8] Undefined variable: pointsProductNum2 D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 93 行.
+NOTIC: [8] Undefined variable: contractNum D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 105 行.
+NOTIC: [8] Undefined variable: contractNum2 D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 107 行.
+NOTIC: [8] Undefined variable: orderNum D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 119 行.
+NOTIC: [8] Undefined variable: orderNum2 D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 121 行.
+NOTIC: [8] Undefined variable: settlementOrderNum D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 133 行.
+NOTIC: [8] Undefined variable: settlementOrderNum2 D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 135 行.
+NOTIC: [8] Undefined variable: pointsOrderNum D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 147 行.
+NOTIC: [8] Undefined variable: pointsOrderNum2 D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 149 行.
+NOTIC: [8] Undefined variable: invoiceOrderNum D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 161 行.
+NOTIC: [8] Undefined variable: invoiceOrderNum2 D:\web\star_call\web\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2019-10-22T14:29:29+08:00 ] 127.0.0.1 /Menu/getMenuList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [2] Declaration of Admin\Controller\MenuController::edit() should be compatible with Admin\Controller\BaseController::edit($data = Array) D:\web\star_call\web\Application\Admin\Controller\MenuController.class.php 第 12 行.
+NOTIC: [8] Undefined index: simple D:\web\star_call\web\Application\Admin\Controller\BaseController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `sy_admin_position` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `sy_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0234s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminOrgModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_org` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0236s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminDepModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_dep` [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0198s ]
+NOTIC: [8] Undefined index: type D:\web\star_call\web\Application\Admin\Model\AdminModel.class.php 第 96 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminRoleModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_role` [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `sy_menu` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `sy_menu` WHERE `type` = 4 AND `url` = '/Menu/getMenuList' AND `mark` = 1 LIMIT 1   [ RunTime:0.0278s ]
+SQL: SELECT `auth` FROM `sy_menu` WHERE `id` IN ('18','19','20','21','156','157','301')  [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `sy_menu` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0245s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0208s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0198s ]
+SQL: SHOW COLUMNS FROM `sy_menu` [ RunTime:0.0197s ]
+NOTIC: [2] Declaration of Admin\Service\MenuService::getList() should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Service\MenuService::edit() should be compatible with Admin\Model\ServiceModel::edit($data = Array, $is_sql = false) D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `sy_menu` [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('154','155') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('162','335') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0196s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 161 LIMIT 1   [ RunTime:0.0218s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0192s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 161 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('18','19','20','21','156','157','301') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 17 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0222s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('23','24','25','26','145','146','147','165') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0191s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 22 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0271s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('28','29','30','31','143','166') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0217s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 27 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0225s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('149','150','151','152','167','194') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0194s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 148 LIMIT 1   [ RunTime:0.0208s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 148 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0253s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('33','34','35','36','195') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0206s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0212s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 32 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0215s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('133','134','135','136','168') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0228s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 132 LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 132 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0264s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('159','160') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0186s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 158 LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 158 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('692','693','694','695','696') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0192s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 691 LIMIT 1   [ RunTime:0.0196s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0222s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 691 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0207s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('55','56','57','58','163') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0212s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0196s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 49 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0232s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('15','16','164') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0222s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0217s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0192s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 14 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0475s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('141','142','182') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 140 LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 140 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0193s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('59','60','61','62','172') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0193s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 50 LIMIT 1   [ RunTime:0.0193s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0228s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0211s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 50 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0231s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('64','65','66','67','173') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0234s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 63 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0271s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('68','69','70','71','174','196') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0186s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0225s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 46 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0202s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('73','74','75','76','175') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0193s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0222s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 72 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0207s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('202','203','204','205','206') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0196s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 201 LIMIT 1   [ RunTime:0.0217s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 99 LIMIT 1   [ RunTime:0.0233s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 201 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0192s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('208','209','210','211','212') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0211s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 207 LIMIT 1   [ RunTime:0.0191s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 207 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('545','546','547','548') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('596','597','598','599','600','653','652') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('590','591','592','593') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('601','602','603','604','605') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('632','633','634','635') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('672','673','674','675','676') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('497','498','499','500','501') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('709','710','714','711','712','713','715','716') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('607','608','609','610','611') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('554','555','556','557','558','559','560','707') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('579','578') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('581','582') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('589') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('584','585','586','587') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('613','614') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('617','622','618','619','620','621') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('704') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('706') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('648','651','649','650') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('656','658','663','657','662') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('665','666') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('668') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0414s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('678','679','680','681','682') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('698','699','700','701') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0256s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 697 LIMIT 1   [ RunTime:0.0202s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 690 LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 551 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 697 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('490','491','492','493','494','720') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0193s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 488 LIMIT 1   [ RunTime:0.0205s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 489 LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 502 LIMIT 1   [ RunTime:0.0205s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 488 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0203s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('626','628','629','702') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0191s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 625 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 624 LIMIT 1   [ RunTime:0.0192s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 623 LIMIT 1   [ RunTime:0.0199s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 625 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0196s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('643','644','645') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('638','639','640','641') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('107','565','108','566','110') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0187s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 106 LIMIT 1   [ RunTime:0.0204s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 105 LIMIT 1   [ RunTime:0.0199s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0234s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 106 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0235s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('686','687','688','689','719','721') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0188s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 685 LIMIT 1   [ RunTime:0.0196s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 684 LIMIT 1   [ RunTime:0.0207s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 685 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('573','574','575','576') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 568 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 567 LIMIT 1   [ RunTime:0.0204s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 568 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('519','520','521','522') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 272 LIMIT 1   [ RunTime:0.0208s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 234 LIMIT 1   [ RunTime:0.0195s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 272 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('524','525','526','527') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0185s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 523 LIMIT 1   [ RunTime:0.0191s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 523 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('530','531','532','533') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0184s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 529 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 529 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0245s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('562','564','563') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0205s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 561 LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 561 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_menu` WHERE `id` IN ('729','730','731','732','733') AND `is_show` = 1 LIMIT 1   [ RunTime:0.0199s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 723 LIMIT 1   [ RunTime:0.0205s ]
+SQL: SELECT * FROM `sy_menu` WHERE `id` = 722 LIMIT 1   [ RunTime:0.0196s ]
+SQL: SELECT * FROM `sy_menu` WHERE `parent_id` = 723 AND `type` = 4 AND `name` = '查看' AND `is_show` = 1 AND `mark` = 1 LIMIT 1   [ RunTime:0.0213s ]
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+NOTIC: [8] Undefined index: to_url D:\web\star_call\web\Application\Admin\Service\MenuService.class.php 第 135 行.
+
+[ 2019-10-22T14:29:34+08:00 ] 127.0.0.1 /User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: simple D:\web\star_call\web\Application\Admin\Controller\BaseController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `sy_admin_position` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `sy_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0136s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminOrgModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_org` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0171s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminDepModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_dep` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0167s ]
+NOTIC: [8] Undefined index: type D:\web\star_call\web\Application\Admin\Model\AdminModel.class.php 第 96 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminRoleModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_role` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `sy_menu` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `sy_menu` WHERE `type` = 4 AND `url` = '/User/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0146s ]
+SQL: SELECT `auth` FROM `sy_menu` WHERE `id` IN ('107','565','108','566','110')  [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `sy_menu` [ RunTime:0.0158s ]
+NOTIC: [2] Declaration of Admin\Model\UserModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\UserModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0208s ]
+NOTIC: [2] Declaration of Admin\Service\UserService::getList($id, $map = Array, $sort = 'id desc') should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') D:\web\star_call\web\Application\Admin\Service\UserService.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: imgUrl D:\web\star_call\web\Runtime\Cache\Admin\478dc61cb15681b787a1bf0ff5304105.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019421s ]
+NOTIC: [8] Undefined variable: info D:\web\star_call\web\Runtime\Cache\Admin\aaaf2a211d3c474681d5eeb159d8947f.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.065258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012588s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.061985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.074585s ]
+NOTIC: [2] Use of undefined constant 个人发票 - assumed '个人发票' (this will throw an Error in a future version of PHP) D:\web\star_call\web\Runtime\Cache\Admin\aaaf2a211d3c474681d5eeb159d8947f.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.079314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002262s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.076994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.079252s ]
+NOTIC: [2] Use of undefined constant 批量删除 - assumed '批量删除' (this will throw an Error in a future version of PHP) D:\web\star_call\web\Runtime\Cache\Admin\aaaf2a211d3c474681d5eeb159d8947f.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001999s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.079984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.081946s ]
+NOTIC: [2] Use of undefined constant 详情 - assumed '详情' (this will throw an Error in a future version of PHP) D:\web\star_call\web\Runtime\Cache\Admin\aaaf2a211d3c474681d5eeb159d8947f.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.085803s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002511s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.082988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.085426s ]
+NOTIC: [2] Use of undefined constant 删除 - assumed '删除' (this will throw an Error in a future version of PHP) D:\web\star_call\web\Runtime\Cache\Admin\aaaf2a211d3c474681d5eeb159d8947f.php 第 70 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.088590s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003080s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.086007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.089072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003508s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.086007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.089470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.092894s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003465s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.090263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.094764s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\star_call\web\ThinkPHP\Library\Think\View.class.php:95) D:\web\star_call\web\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\star_call\web\ThinkPHP\Library\Think\View.class.php:95) D:\web\star_call\web\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web\star_call\web\ThinkPHP\Library\Think\View.class.php:95) D:\web\star_call\web\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002642s ]
+
+[ 2019-10-22T14:29:35+08:00 ] 127.0.0.1 /User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Constant MAIN_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 10 行.
+NOTIC: [8] Constant WAP_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 11 行.
+NOTIC: [8] Constant API_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 12 行.
+NOTIC: [8] Constant IMG_URL already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 13 行.
+NOTIC: [8] Constant ATTACHMENT_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 14 行.
+NOTIC: [8] Constant IMG_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 15 行.
+NOTIC: [8] Constant UPLOAD_TEMP_PATH already defined D:\web\star_call\web\Application\Common\Conf\config.inc.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: simple D:\web\star_call\web\Application\Admin\Controller\BaseController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `sy_admin_position` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `sy_admin_position` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0151s ]
+NOTIC: [2] Declaration of Admin\Model\AdminOrgModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminOrgModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_org` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0192s ]
+NOTIC: [2] Declaration of Admin\Model\AdminDepModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminDepModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_dep` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0213s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0175s ]
+NOTIC: [8] Undefined index: type D:\web\star_call\web\Application\Admin\Model\AdminModel.class.php 第 96 行.
+NOTIC: [2] Declaration of Admin\Model\AdminRoleModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\AdminRoleModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_admin_role` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `sy_admin` [ RunTime:0.0338s ]
+SQL: SHOW COLUMNS FROM `sy_menu` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `sy_menu` WHERE `type` = 4 AND `url` = '/User/index' AND `mark` = 1 LIMIT 1   [ RunTime:0.0145s ]
+SQL: SELECT `auth` FROM `sy_menu` WHERE `id` IN ('107','565','108','566','110')  [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `sy_menu` [ RunTime:0.0182s ]
+NOTIC: [2] Declaration of Admin\Model\UserModel::getInfo($id) should be compatible with Common\Model\CBaseModel::getInfo($id, $flag = false) D:\web\star_call\web\Application\Admin\Model\UserModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0188s ]
+NOTIC: [2] Declaration of Admin\Service\UserService::getList($id, $map = Array, $sort = 'id desc') should be compatible with Admin\Model\ServiceModel::getList($map = Array, $sort = 'id desc') D:\web\star_call\web\Application\Admin\Service\UserService.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `sy_user` [ RunTime:0.0202s ]
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\Admin\Service\UserService.class.php 第 36 行.
+NOTIC: [8] Undefined index: issue D:\web\star_call\web\Application\Admin\Service\UserService.class.php 第 37 行.
+NOTIC: [8] Undefined index: mobile D:\web\star_call\web\Application\Admin\Model\UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined index: issue D:\web\star_call\web\Application\Admin\Model\UserModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: condition D:\web\star_call\web\Application\Admin\Model\UserModel.class.php 第 81 行.
+SQL: SELECT user.*,sum(num) as vote_num FROM ( SELECT u.id,u.mobile,u.user_status,u.create_time,th.nickname,th.avatar FROM sy_user u INNER JOIN sy_third_user as th ON u.id=th.user_id  GROUP BY u.id  ) as user LEFT JOIN sy_user_vote as uv ON user.id=uv.user_id  GROUP BY uv.user_id ORDER BY vote_num DESC LIMIT 0,20   [ RunTime:0.0188s ]
+NOTIC: [8] Undefined variable: condition D:\web\star_call\web\Application\Admin\Model\UserModel.class.php 第 89 行.
+SQL: SELECT COUNT(distinct(user.id)) AS tp_count FROM ( SELECT u.id,u.mobile,u.user_status,u.create_time,th.nickname,th.avatar FROM sy_user u INNER JOIN sy_third_user as th ON u.id=th.user_id  GROUP BY u.id  ) as user LEFT JOIN sy_user_vote as uv ON user.id=uv.user_id  LIMIT 1   [ RunTime:0.0154s ]
+NOTIC: [2] Declaration of Admin\Model\UserVoteModel::drop($id) should be compatible with Common\Model\CBaseModel::drop($id, $is_sql = false) D:\web\star_call\web\Application\Admin\Model\UserVoteModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `sy_user_vote` [ RunTime:0.0165s ]
+SQL: SELECT sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '2' AND `type` IN (1,2) AND `mark` = 1 LIMIT 1   [ RunTime:0.0146s ]
+SQL: SELECT sum(num) as vote_num FROM `sy_user_vote` WHERE `user_id` = '1' AND `type` IN (1,2) AND `mark` = 1 LIMIT 1   [ RunTime:0.0180s ]
+
