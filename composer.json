@@ -18,7 +18,8 @@
       "ext-json": "*",
       "ext-fileinfo": "*",
       "ext-mbstring": "*",
-        "firebase/php-jwt": "dev-master"
+        "firebase/php-jwt": "dev-master",
+        "phpmailer/phpmailer": "dev-master"
     },
     "minimum-stability": "dev"
 }

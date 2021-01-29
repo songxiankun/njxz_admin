@@ -17,7 +17,7 @@ return array(
     'DB_CONFIG' => 'mysql://njxz:njxz2020.!@127.0.0.1:3306/njxz',
     // 'DB_CONFIG' => 'mysql://root:@127.0.0.1:3306/njxz',
 //    'DB_CONFIG' => 'mysql://njxz_laboratory:rZ8dXbW8mYktLX5B@112.124.25.211:3306/njxz_laboratory',
-    'CACHE_CONFIG'=>'redis://:@127.0.0.1:6379/1',
+    'CACHE_CONFIG'=>'redis://:@127.0.0.1:6379/2',
     'DB_PREFIX' => 'njxz_',
     'DB_CHARSET' => 'utf8mb4',
     'UPLOAD' => array(

@@ -3,28 +3,33 @@
 /**
  * 人员管理-模型
  */
+
 namespace Admin\Model;
+
 use Common\Model\CBaseModel;
-class AdminModel extends CBaseModel {
-    public function __construct() {
+
+class AdminModel extends CBaseModel
+{
+    public function __construct()
+    {
         parent::__construct("admin");
     }
-    
+
     //自动验证
     protected $_validate = array(
 //         array('realname','','真实姓名已经存在！',self::EXISTS_VALIDATE,'unique',1),//新增数据时验证
-        array('realname', '1,30', '真实姓名长度不合法', self::EXISTS_VALIDATE, 'length',3),
-        array('mobile','/^1[3|4|5|7|8][0-9]\d{4,8}$/','手机号码不正确！','0','regex',1),
+        array('realname', '1,30', '真实姓名长度不合法', self::EXISTS_VALIDATE, 'length', 3),
+        array('mobile', '/^1[3|4|5|7|8][0-9]\d{4,8}$/', '手机号码不正确！', '0', 'regex', 1),
 //         array('email', '', '邮箱已经存在！', 0, 'unique', 1),//新增数据时验证
 //         array('email', 'email', '邮箱不合法！', 0, '', 3),
     );
-   
+
     //自动完成
-    protected $_auto = array (
-        array('add_time','time',3,'function'), // 对add_time字段在更新的时候写入当前时间戳
-        array('upd_time','time',3,'function'),
+    protected $_auto = array(
+        array('add_time', 'time', 3, 'function'), // 对add_time字段在更新的时候写入当前时间戳
+        array('upd_time', 'time', 3, 'function'),
     );
-    
+
 //     //自动验证
 //     protected $_validate = array (
 //         array('name', 'require', '姓名不能为空！', 1, '', 3),
@@ -46,88 +51,103 @@ class AdminModel extends CBaseModel {
 //         array('email', '', '邮箱已经存在！', 1, 'unique', 3), // email唯一
 //         array('ID_number', '', '身份证号已经存在！', 1, 'unique', 3), // 身份证号唯一
 //     );
-    
+
     /**
      * 获取缓存信息
+     * @param $id
+     * @param bool $flag
+     * @return mixed
      */
-    public function getInfo($id,$flag=false) {
+    public function getInfo($id, $flag = false)
+    {
         $info = parent::getInfo($id);
-        if($info) {
-            
+        if ($info) {
+
             //头像
-            if($info['avatar']) {
+            if ($info['avatar']) {
                 $info['avatar_url'] = IMG_URL . $info['avatar'];
             }
-            
+
             //入职日期
-            if($info['entry_date']) {
-                $info['format_entry_date'] = date('Y-m-d H:i:s',$info['entry_date']);
+            if ($info['entry_date']) {
+                $info['format_entry_date'] = date('Y-m-d H:i:s', $info['entry_date']);
             }
-            
+
             //性别
             $info['gender_name'] = C("GENDER_ARR")[$info['gender']];
-            
+
             //职位
-            if($info['position_id']) {
+            if ($info['position_id']) {
                 $positionMod = M("adminPosition");
                 $positionInfo = $positionMod->find($info['position_id']);
                 $info['position_name'] = $positionInfo['name'];
             }
-            
+
             //获取组织
-            if($info['organization_id']) {
+            if ($info['organization_id']) {
                 $adminOrgMod = new AdminOrgModel();
                 $adminOrgInfo = $adminOrgMod->getInfo($info['organization_id']);
             }
-            
+
             //获取部门
-            if($info['dept_id']) {
+            if ($info['dept_id']) {
                 $adminDepMod = new AdminDepModel();
-                $adminDepName = $adminDepMod->getDepName($info['dept_id'],">>");
+                $adminDepName = $adminDepMod->getDepName($info['dept_id'], ">>");
                 $info['dept_name'] = $adminOrgInfo['name'] . ">>" . $adminDepName;
             }
             //用户类型
             $info['user_type'] = $info['type'];
 
-            if($flag) {
-                
+            //角色权限
+            if ($info['role_ids']) {
+                $roleIds = explode(',', $info['role_ids']);
+                $adminRoleMod = new AdminRoleModel();
+                if (is_array($roleIds)) {
+                    foreach ($roleIds as $val) {
+                        $infos = $adminRoleMod->getInfo($val);
+                        $info['role_name'] .= $infos['name'] . " ";
+                    }
+                }
+            }
+
+            if ($flag) {
                 //独立权限反序列化
-                if($info['auth']) {
+                if ($info['auth']) {
                     $auth = unserialize($info['auth']);
                 }
                 $info['auth'] = $auth;
-                
+
                 //角色权限
-                if($info['role_ids']) {
+                if ($info['role_ids']) {
                     $roleIds = explode(',', $info['role_ids']);
                     $adminRoleMod = new AdminRoleModel();
                     $roleAuth = $adminRoleMod->getRoleAuth($roleIds);
                 }
-                
+
                 //独立权限、角色权限重组成人员权限
                 $authList = array();
-                
+
                 //独立权限
-                if(is_array($auth)) {
-                    foreach ($auth as $key=>$val) {
+                if (is_array($auth)) {
+                    foreach ($auth as $key => $val) {
                         $authList[$key][] = $val;
                     }
                 }
-                
+
                 //角色权限
-                if(is_array($roleAuth)) {
-                    foreach ($roleAuth as $kt=>$vt) {
+                if (is_array($roleAuth)) {
+                    foreach ($roleAuth as $kt => $vt) {
                         $authList[$kt][] = $vt;
                     }
                 }
                 $result = array();
-                foreach ($authList as $key=>$val) {
-                    if(!in_array($key, array_keys($result))) {
+                foreach ($authList as $key => $val) {
+                    if (!in_array($key, array_keys($result))) {
                         $result[$key] = array();
                     }
                     foreach ($val as $vt) {
                         foreach ($vt as $v) {
-                            if(!in_array($v, $result[$key])) {
+                            if (!in_array($v, $result[$key])) {
                                 $result[$key][] = $v;
                             }
                         }
@@ -135,21 +155,21 @@ class AdminModel extends CBaseModel {
                 }
                 $info['adminAuth'] = $result;
             }
-            
         }
         return $info;
     }
-    
+
     /**
      * 获取所有人员
      */
-    function getAll() {
+    function getAll()
+    {
         $data = $this->getCache("adminAll");
-        if(!$data) {
-            $result = $this->where(['status'=>1,'mark'=>1])->getField("id,realname,gender");
+        if (!$data) {
+            $result = $this->where(['status' => 1, 'mark' => 1])->getField("id,realname,gender");
             $this->setCache("adminAll", $result);
         }
         return $data;
     }
-    
+
 }

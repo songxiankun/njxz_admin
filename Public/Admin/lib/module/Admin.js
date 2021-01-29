@@ -21,14 +21,8 @@ layui.use(['func','laydate'],function(){
 				  ,{ field:'realname', width:150, title: '真实姓名', align:'center', }
 				  ,{ field:'gender_name', width:60, title: '性别', align:'center' }
 				  ,{ field:'position_name', width:120, title: '职位', align:'center' }
+				  ,{ field:'role_name', width:160, title: '角色属性', align:'center' }
 				  ,{ field:'mobile', width:130, title: '手机号码', align:'center' }
-				  // ,{ field:'user_type', width:100, title: '人员类型', align:'center', templet:function(d){
-					//   if(d.user_type==1) {
-					// 	  return '<span style="color: #009688;">系统用户</span>';
-					//   }else if(d.user_type==2) {
-					// 	  return '<span style="color: #F581B1;">区域代理</span>';
-					//   }
-				  // } }
 				  ,{ field:'dept_name', width:300, title: '所属组织部门', align:'center', }
 				  ,{ field:'is_admin', width:80, title: '管理员', align:'center', templet: function(d){
 					  var str = "";

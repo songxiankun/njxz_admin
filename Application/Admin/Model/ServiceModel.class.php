@@ -26,11 +26,14 @@ class ServiceModel extends Model {
         $startIndex = ($page-1)*$perpage;
         $limit = "{$startIndex}, {$perpage}";
     }
-    
+
     /**
      * 获取数据列表【基类方法】
+     * @param array $map
+     * @param string $sort
+     * @return array
      */
-    public function getList($map=array(),$sort="id desc") {
+    public function getList($map=array(), $sort="id desc") {
         $map['mark'] = 1;
 
         //获取数据

@@ -16,7 +16,7 @@ class AdminRoleModel extends CBaseModel {
         array('name', '1,30', '角色名称长度不合法', self::EXISTS_VALIDATE, 'length',3),
     );
     
-    function getInfo($id) {
+    public function getInfo($id) {
         $info = parent::getInfo($id,true);
         if($info) {
             
