@@ -2,6 +2,7 @@
 
 
 namespace Home\Service;
+
 use Home\Model\AdminDepModel;
 use Home\Model\AdminModel;
 use Home\Model\AdminOrgModel;
@@ -10,9 +11,9 @@ use Home\Model\DevicesModel;
 use Home\Model\DeviceTypeModel;
 use Home\Model\EnginRoomModel;
 use Home\Model\RepairApplicationModel;
-use Think\Model;
+use Home\Model\SMSLogModel;
 
-class RepairApplicationService extends Model
+class RepairApplicationService extends BaseService
 {
     /**
      * @var RepairApplicationModel
@@ -29,7 +30,8 @@ class RepairApplicationService extends Model
      * 1 待审核 2 未通过 3 已通过
      * @author songxk
      */
-    public function getList() {
+    public function getList()
+    {
         // t_id=1&uid=5&page=1&limit=15
         $t_id = I("get.t_id");
         $id = I("get.uid");
@@ -56,8 +58,7 @@ class RepairApplicationService extends Model
             ->where($where)->order("id desc")
             ->page($page, $limit)->select();
 
-        foreach ($result as $key => $value)
-        {
+        foreach ($result as $key => $value) {
             $organize_name = "";
             $dept_name = "";
             // 获取组织name
@@ -76,7 +77,7 @@ class RepairApplicationService extends Model
                     ->find()['name'];
             }
 
-            $result[$key]['org'] = $organize_name . " << " .$dept_name;
+            $result[$key]['org'] = $organize_name . " << " . $dept_name;
             // 获取所在位置building_id
             if (isset($value['building_id']) && $value['building_id']) {
                 $bulidMod = new BuildingModel();
@@ -127,7 +128,7 @@ class RepairApplicationService extends Model
                     $deviceName = $deviceTypeMod->field('name')
                         ->where(['id' => $v['id'], 'mark' => 1])
                         ->find()['name'];
-                    $str .= $deviceName. " : " . $v['content'] . "; ";
+                    $str .= $deviceName . " : " . $v['content'] . "; ";
                 }
                 $result[$key]['device'] = $str;
             }
@@ -154,10 +155,10 @@ class RepairApplicationService extends Model
         $count = $this->mod->where($where)->count();
 
         return array(
-            'code'  => 0,
-            'msg'   => '',
+            'code' => 0,
+            'msg' => '',
             'count' => $count,
-            'data'  => $result
+            'data' => $result
         );
     }
 
@@ -169,7 +170,7 @@ class RepairApplicationService extends Model
     {
         // 查询当前用户信息 获取用户id
         $uid = I("post.uid");
-        $adminMod =new AdminModel();
+        $adminMod = new AdminModel();
         $adminID = $adminMod->field('id')->where(['id' => $uid, 'mark' => 1])->find();
         if (!$adminID) {
             return message("非法操作", false, []);
@@ -180,7 +181,7 @@ class RepairApplicationService extends Model
         $info = $this->mod->where([
             'mark' => 1,
             'admin_id' => $adminID['id'],
-            'id'    => $id
+            'id' => $id
         ])->find();
 
         if (!$info) {
@@ -196,5 +197,240 @@ class RepairApplicationService extends Model
         }
 
         return message("更新成功", true, []);
+    }
+
+    /**
+     * 申请表单提交
+     * @return array
+     */
+    public function submit()
+    {
+        $data = I("post.");
+        if (isset($data['token']) && $data['token']) {
+            $tokenData = $this->dataToken($data['token']);
+            if (!$tokenData['success']) {
+                return $tokenData;
+            }
+            // 数据处理
+            $userInfo = $tokenData['data'];
+            $data['organize_id'] = $userInfo['organization_id'];
+            $data['department_id'] = $userInfo['department_id'];
+            $data['admin_id'] = $userInfo['id'];
+
+            unset($data['token']);
+        }
+
+        if (isset($data['images']) && $data['images']) {
+            $data['images'] = htmlspecialchars_decode($data['images']);
+        }
+
+        if (isset($data['device_detail']) && $data['device_detail']) {        // images 有值
+            $data['device_detail'] = htmlspecialchars_decode($data['device_detail']);
+        }
+
+        $data['add_time'] = time();
+
+        $res = $this->mod->add($data);
+
+        if (!$res)
+            return message('申请表单写入失败：' . $this->mod->getError(), false, []);
+        // 写入成功 发送邮件给审核人
+        // 获取信息
+        $adminMod = new AdminModel();
+        $recv_email = $adminMod->field('id, email, realname')->where([
+            'id' => $data['upd_user'],
+            'mark' => 1
+        ])->find();
+
+        if (!empty($recv_email)) {
+            $res = $this->sendEmail([
+                'toAddress' => $recv_email['email'],
+                'toName' => $recv_email['realname'],
+                'subject' => '您有新的审核订单，请及时审核~~',
+                'htmlData' =>
+                    '<h1>请点击下面链接进行订单审核</h1><br>http://home.njxzc.edu.cn/page/table/application/update_application.html?uid=' . $recv_email['id'] . "&rid=" . $this->mod->getLastInsID(),
+                'data' =>
+                    '请点击下面链接进行订单审核: http://home.njxzc.edu.cn/page/table/application/update_application.html?uid=' . $recv_email['id'] . "&rid=" . $this->mod->getLastInsID()]);
+            // 写入日志 到sms_log
+            $datas = array(
+                'type' => 2,
+                'content' => '<h1>请点击下面链接进行订单审核</h1><br>http://home.njxzc.edu.cn/page/table/application/update_application.html?uid=' . $recv_email['id'] . "&rid=" . $this->mod->getLastInsID(),
+                'mail' => $recv_email['email'],
+                'sender_id' => $data['admin_id'],
+                'add_time' => time(),
+            );
+            // 是否发送成功
+            if ($res['success'] == true) {
+                $datas['status'] = 1;
+            } else {
+                $datas['status'] = 2;
+            }
+            $datas['msg'] = $res['msg'];
+
+            // 日志入库
+            $smsLog = new SMSLogModel();
+            $smsLog->add($datas);
+        }
+        return message('申请成功', true, []);
+    }
+
+    /**
+     * 获取订单信息
+     * uid 申请人
+     * rid 订单id
+     */
+    public function getApplyInfo()
+    {
+        $data = I("post.");
+        $map = array('mark' => 1);
+        // 审核人id
+        if (isset($data['uid']) && $data['uid']) {
+            $map['upd_user'] = $data['uid'];
+        }
+
+        // 订单id
+        if (isset($data['rid']) && $data['rid']) {
+            $map['id'] = $data['rid'];
+        }
+
+        // 查询信息
+        $repairInfo = $this->mod->where($map)->find();
+
+        if (empty($repairInfo)) {
+            return message("请求失败，此订单不存在，请核实。申请ID为：" . $data['rid'], false, []);
+        }
+
+        // 查询是否已经审核完毕
+        if ($repairInfo['status'] != 1) {
+            return message("该申请已审核，请勿重复审核", false, []);
+        }
+
+        // 信息返回
+        $repairInfo['status'] = "待审核";
+        // 院校 系别
+        $orgMod = new AdminOrgModel();
+        $deptMod = new AdminDepModel();
+        $repairInfo['deptName'] = $deptMod->field('name')
+            ->where(['mark' => 1, 'id' => $repairInfo['department_id']])->find()['name'];
+        $repairInfo['orgName'] = $orgMod->field('name')
+            ->where(['mark' => 1, 'id' => $repairInfo['organize_id']])->find()['name'];
+
+        // 楼名 教室名
+        $buildMod = new BuildingModel();
+        $enginMod = new EnginRoomModel();
+
+        $repairInfo['buildName'] = $buildMod->field('name')
+            ->where(['mark' => 1, 'id' => $repairInfo['building_id']])->find()['name'];
+        $enginRoom = $enginMod->field('name, num')
+            ->where(['mark' => 1, 'id' => $repairInfo['engin_room_id']])->find();
+
+        if (isset($enginRoom) && $enginRoom) {
+            $repairInfo['enginRoom'] = "机房 " . $enginRoom['num'] . "-" . $enginRoom['name'];
+        }
+
+        // 设备名
+        $deviceName = new DevicesModel();
+        $deviceName = $deviceName->field('device_name, num')
+            ->where(['mark' => 1, 'id' => $repairInfo['device_id']])->find();
+        if (isset($deviceName) && $deviceName) {
+            $repairInfo['deviceName'] = $deviceName['num'] . '-' . $deviceName['device_name'];
+        }
+
+        // 审核人信息
+        $adminMod = new AdminModel();
+        $repairInfo['updName'] = $adminMod->field('realname')->where(['mark' => 1, 'id' => $repairInfo['upd_user']])->find()['realname'];
+        $repairInfo['adminName'] = $adminMod->field('realname')->where(['mark' => 1, 'id' => $repairInfo['admin_id']])->find()['realname'];
+
+        // deviceDetail images video
+        $device_detail = array();
+        if (isset($repairInfo['device_detail']) && $repairInfo['device_detail']) {
+            $deviceArr = json_decode($repairInfo['device_detail'], true);
+            $deviceMod = new DevicesModel();
+            if ($deviceArr['parents']['total'] == 0) // 只有主设备
+            {
+                $name = $deviceMod->field("device_name")->where(['mark' => 1, 'id' => $deviceArr['parents']['id']])->find()['device_name'];
+                $device_detail[0] = "[" . $name . "] :" . $deviceArr['parents']['content'];
+            } else {  // 含有子设备
+                $child = $deviceArr['parents']['sub'];
+                for ($i = 0; $i < $deviceArr['parents']['total']; $i++) {
+                    $name_ =  $deviceMod->field("device_name")->where(['mark' => 1, 'id' => $child['id']])->find()['device_name'];
+                    $device_detail[$i] = "[" . $name_ . "] :" . $deviceArr['parents']['content'];
+                }
+            }
+        }
+
+        $repairInfo['device_detail'] = $device_detail;
+
+        if (isset($repairInfo['images']) && $repairInfo['images']) {
+            $repairInfo['images'] = json_decode($repairInfo['images'], true);
+        }
+
+        if (isset($repairInfo['video']) && $repairInfo['video']) {
+            $repairInfo['video'] = json_decode($repairInfo['video'], true);
+        }
+
+        if (isset($repairInfo['add_time']) && $repairInfo['add_time']) {
+            $repairInfo['add_time'] = date("Y-m-d H:i:s", $repairInfo['add_time']);
+        }
+
+        return message('请求成功', true, $repairInfo);
+    }
+
+    public function update()
+    {
+        $data = I("post.");
+
+        // 更新到数据库
+        $res = $this->mod->save($data);
+
+        if (!$res) {
+            return message('更新失败', false, []);
+        }
+
+        // 获取信息 发送消息给申请用户
+        $info = $this->mod->where(['id' => $data['id'], 'mark' => 1])->find();
+
+        if (!empty($info)) {
+            if ($data['status'] == 2) // 审核未通过
+            {
+                // 获取申请人email
+                $adminMod = new AdminModel();
+                $email = $adminMod->field('email, realname')->where(['id' => $info['admin_id'], 'mark' => 1])->find();
+                if (!empty($email)) {
+                    $email['email'] = $email['email'] == null ? "1281541477@qq.com" : $email['email'];
+                    $res = $this->sendEmail([
+                        'toAddress' => $email['email'],
+                        'toName' => $email['realname'],
+                        'subject' => '您的审核订单已审核，请及时查看~~',
+                        'htmlData' =>
+                            '<h1>请点击下面链接进行订单审核</h1><br>http://home.njxzc.edu.cn',
+                        'data' =>
+                            '请点击下面链接进行订单审核: http://home.njxzc.edu.cn/page/table/application/update_application.html']);
+                    // 写入日志 到sms_log
+                    $datas = array(
+                        'type' => 2,
+                        'content' => '<h1>请点击下面链接进行订单审核</h1><br>http://home.njxzc.edu.cn',
+                        'mail' => $email['email'],
+                        'sender_id' => $info['upd_user'],
+                        'add_time' => time(),
+                    );
+                    // 是否发送成功
+                    if ($res['success'] == true) {
+                        $datas['status'] = 1;
+                    } else {
+                        $datas['status'] = 2;
+                    }
+                    $datas['msg'] = $res['msg'];
+
+                    // 日志入库
+                    $smsLog = new SMSLogModel();
+                    $smsLog->add($datas);
+                }
+            } else {  // TODO 审核通过生成订单 发送信息
+
+            }
+        }
+
+        return message('审核成功', true, []);
     }
 }

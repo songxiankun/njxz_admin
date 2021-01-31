@@ -16,6 +16,7 @@ class DevicesModel extends BaseModel
     /**
      * 获取设备消息根据编号
      * @param $num
+     * @return array
      * @author kunkun
      */
     public function getInfoByNums($num)
@@ -48,7 +49,40 @@ class DevicesModel extends BaseModel
         // 首先机房信息 工科楼 1楼 101机房
         if (isset($data['address']) && $data['address']) {
             $arr = explode(" ", $data['address']);
-            var_dump($arr);die();
+            /**
+            0 => string '方山校区' (length=12)
+            1 => string '工科楼南403' (length=15)
+            2 => string '微机接口技术与单片机原理实验室' (length=45)
+             */
+            if (sizeof($arr) == 3) { // 处理工科楼
+                if (preg_match('/[0-9]/', $arr[1], $matches, PREG_OFFSET_CAPTURE)) {
+                    $bulidMod = new BuildingModel();
+                    $name = substr($arr[1], 0, $matches[0][1]);
+                    $building_id = $bulidMod->field('id')->where([
+                        'name'  => $name,
+                        'mark'  => 1
+                    ])->find();
+
+                    // 获取building_id
+                    if (isset($building_id) && $building_id) {
+                        $data['building_id'] = $building_id['id'];
+                        $data['building_name'] = $name;
+                    }
+
+                    // 获取楼层
+                    $data['floor'] = $matches[0][0];
+
+                    // 机房编号
+                    $data['room_num'] = '机房' . strstr($arr[1], $matches[0][0]) . '-' . $arr[2];
+
+                    var_dump($data);
+                    die();
+                }
+            }
+            // 处理鹤琴楼
+            die();
+
+           // var_dump($arr);die();
         }
 
 

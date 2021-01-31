@@ -37,4 +37,30 @@ class RepairApplicationController extends BaseController
         $res = $this->service->deleteById();
         $this->ajaxReturn($res);
     }
+
+    /**
+     * 获取维修申请订单信息
+     * @author kunkun
+     */
+    public function getApplyInfo()
+    {
+        if (IS_POST) {  // post 请求
+            $res = $this->service->getApplyInfo();
+            $this->ajaxReturn($res);
+        }
+        $this->ajaxReturn(message("非法请求", false, []));
+    }
+
+    /**
+     * 更新申请订单状态
+     * @author songxk
+     */
+    public function updateRepairInfo()
+    {
+        if (IS_POST) {
+            $res = $this->service->update();
+            $this->ajaxReturn($res);
+        }
+        $this->ajaxReturn(message("非法请求", false, []));
+    }
 }

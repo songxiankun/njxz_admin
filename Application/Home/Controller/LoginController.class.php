@@ -20,7 +20,7 @@ class LoginController extends BaseController
 
     public function __construct()
     {
-        parent::__construct();
+        parent::__construct(false);
         $this->service = new LoginService();
     }
 
@@ -36,17 +36,5 @@ class LoginController extends BaseController
             return;
         }
         $this->ajaxReturn(message('非法请求', false,[]));
-    }
-
-    /**
-     * 检测是否登陆，如果登陆就跳回主页面
-     * @author songxk
-     */
-    private function checkLogin()
-    {
-        if (isset($_SESSION['adminId']) && isset($_SESSION['roles'])) {
-            $this->redirect('/Index/index');
-            exit;
-        }
     }
 }

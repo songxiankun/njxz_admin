@@ -9,6 +9,7 @@ use Home\Model\BuildingModel;
 use Home\Model\DevicesModel;
 use Home\Model\DeviceTypeModel;
 use Home\Model\EnginRoomModel;
+use Home\Service\RepairApplicationService;
 
 class ApplyController extends BaseController
 {
@@ -32,6 +33,10 @@ class ApplyController extends BaseController
      * @var DeviceTypeModel
      */
     private $deviceTypeMod;
+    /**
+     * @var RepairApplicationService
+     */
+    private $repairApplyService;
 
     public function __construct()
     {
@@ -41,6 +46,7 @@ class ApplyController extends BaseController
         $this->enginMod = new EnginRoomModel();
         $this->deviceMod = new DevicesModel();
         $this->deviceTypeMod = new DeviceTypeModel();
+        $this->repairApplyService = new RepairApplicationService();
     }
 
     /**
@@ -83,9 +89,13 @@ class ApplyController extends BaseController
                 'id' => $id,
                 'mark' => 1,
             );
-            $floors = $this->buildMod->field('floors')->where($where)->find()['floors'];
 
-            $this->ajaxReturn(message("获取成功", true, ['floors' => $floors]));
+            $floors = $this->buildMod->field('floors')->where($where)->find();
+
+            if (empty($floors)) {
+                $this->ajaxReturn(message("获取失败", false, []));
+            }
+            $this->ajaxReturn(message("获取成功", true, ['floors' => $floors['floors']]));
         }
         $this->ajaxReturn(message('非法请求', false, []));
     }
@@ -99,21 +109,18 @@ class ApplyController extends BaseController
         if (IS_POST) {
             $building_id = I("post.building_id", 0);
             $floor_id = I("post.floor_id", 0);
-            $adminID = I("post.admin_id", 0);
+            $adminID = $this->dataToken(I('token', true))['data']['data']['id'];
 
-            $where = array();
-
-            if ($adminID == session('adminId')) {
-                $where = ['admin_id' => $adminID];
-            }
             // 获取所有楼层
             $where = array(
+                'admin_id' => $adminID,
                 'building_id' => $building_id,
                 'floor' => $floor_id,
                 'mark' => 1,
             );
             // 信息查询  消息回送
-            $rooms = $this->enginMod->field('id, name')->where($where)->select();
+            $rooms = $this->enginMod->field('id, num')->order('num asc')->where($where)->group('num')->select();
+
             if (empty($rooms)) {
                 $this->ajaxReturn(message("暂无数据", false));
             }
@@ -130,28 +137,37 @@ class ApplyController extends BaseController
     {
         if (IS_POST) {
             $room_id = I("post.room_id", 0);
-            $adminID = I("post.admin_id", 0);
+            $building_id = I("post.building_id", 0);
 
-            $where = array();
+            if ($room_id) {
+                $res = $this->enginMod->field('num')->
+                where(['mark' => 1, 'id' => $room_id, 'building_id' => $building_id])->find();
 
-            if ($adminID == session('adminId')) {
-                $where = ['admin_id' => $adminID];
+                if (empty($res)) {
+                    $this->ajaxReturn(message("此机房不存在", false, []));
+                }
+
+                $num = $res['num'];
+            } else {
+                $this->ajaxReturn(message("机房编号为空", false, []));
             }
+
+            $admin_name = $this->dataToken(I('token', true))['data']['data']['realname'];
             // 获取所有楼层
             $where = array(
-                'engin_room_id' => $room_id,
-                'njxz_device_type.parent_id' => 0,
-                'njxz_devices.mark' => 1,
+                'admin_name' => ['like', '%' . $admin_name . '%'],
+                'address' => ['LIKE', '%' . $num . '%'],
+                'mark' => 1,
             );
             // 信息查询  消息回送
-            $computerCodes = $this->deviceMod->field('njxz_devices.id, njxz_devices.num, name')
-                ->join("njxz_device_type ON njxz_device_type.id = njxz_devices.device_type_id")
+            $computerDatas = $this->deviceMod->field('id, num, device_name')
                 ->where($where)->select();
 
-            if (empty($computerCodes)) {
+            if (empty($computerDatas)) {
                 $this->ajaxReturn(message("暂无数据", false));
             }
-            $this->ajaxReturn(message("获取成功", true, ['computerCodes' => $computerCodes]));
+            // 数据返回
+            $this->ajaxReturn(message("获取成功", true, ['computerData' => $computerDatas]));
         }
         $this->ajaxReturn(message('非法请求', false, []));
     }
@@ -164,31 +180,46 @@ class ApplyController extends BaseController
     {
         if (IS_POST) {
             $id = I("post.id", 0);
-            $adminID = I("post.admin_id", 0);
-
-            $where = array();
-
-            if ($adminID == session('adminId')) {
-                $where = ['admin_id' => $adminID];
-            }
+            $admin_name = $this->dataToken(I('token', true))['data']['data']['realname'];
             // 获取所有楼层
             $where = array(
                 'id' => $id,
-                'mark' => 1
+                'admin_name' => ['like', '%' . $admin_name . '%'],
+                'mark' => 1,
             );
-            // 查询当前设备id
-            $ids = $this->deviceMod->field('device_type_id')->where($where)->find()['device_type_id'];
+            // 信息查询
+            $parent_name = $this->deviceMod->field('device_name')
+                ->where($where)->find();
 
-            // 查询主设备一下的子设备
-            $w = array([
-                'parent_id' => $ids,
-                'mark' => 1
-            ]);
-            $info = $this->deviceTypeMod->field('id, name')->where($w)->select();
-            if (empty($info)) {
-                $this->ajaxReturn(message("暂无数据", false));
+            // 循环遍历信息 获取子节点
+            if (!empty($parent_name)) {
+                $name = mb_substr($parent_name['device_name'], 0, 2);
+
+                $parent_id = $this->deviceTypeMod->field('id')->where([
+                    'name' => array('LIKE', "%" . $name . '%'),
+                    'parent_id' => 0,
+                    'mark' => 1
+                ])->find();
+
+                // 查询到当前设备的信息 进行子设备查询
+                if (!empty($parent_id)) {
+                    $childData = $this->deviceTypeMod->field('id, name')->where([
+                        'mark' => '1',
+                        'parent_id' => $parent_id['id']
+                    ])->select();
+
+                    if (!empty($childData)) {
+                        $this->ajaxReturn(message("获取成功", true, ['childCC' => $childData]));
+                    }
+                } else {
+                    // code == 100 为当前设备无子设备
+                    $this->ajaxReturn(message("暂无子设备数据", false, [], 100));
+                }
             }
-            $this->ajaxReturn(message("获取成功", true, ['childCC' => $info]));
+            else
+            {
+                $this->ajaxReturn(message('获取数据失败', false, []));
+            }
         }
         $this->ajaxReturn(message('非法请求', false, []));
     }
@@ -205,6 +236,19 @@ class ApplyController extends BaseController
             if ($num == 0)
                 $this->ajaxReturn(message('参数错误', false, []));
             $res = $this->deviceMod->getInfoByNums($num);
+            $this->ajaxReturn($res);
+        }
+        $this->ajaxReturn(message('非法请求', false, []));
+    }
+
+    /**
+     * 提交申请---生成申请订单
+     * @author songxk
+     */
+    public function submit()
+    {
+        if (IS_POST) {
+            $res = $this->repairApplyService->submit();
             $this->ajaxReturn($res);
         }
         $this->ajaxReturn(message('非法请求', false, []));

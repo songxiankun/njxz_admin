@@ -16,9 +16,6 @@ class BaseController extends Controller {
     
     /**
      * 初始化方法
-     * 
-     * @author zongjl
-     * @date 2018-09-30
      */
     public function _initialize() {
         //TODO...

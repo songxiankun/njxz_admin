@@ -4,7 +4,6 @@
 namespace Home\Controller;
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 /**
@@ -65,9 +64,9 @@ class SendMailController extends BaseController
             $mail->AltBody = $data['data'];
 
             $mail->send();
-            $this->ajaxReturn(message('邮件发送成功', true, [], 200));
+            return (message('邮件发送成功', true, [], 200));
         } catch (Exception $e) {
-            $this->ajaxReturn(message('邮件发送失败：'. $mail->ErrorInfo, false, [], 200));
+            return (message('邮件发送失败：'. $mail->ErrorInfo, false, [], 200));
         }
     }
 }

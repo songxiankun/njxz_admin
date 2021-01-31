@@ -7,22 +7,23 @@ use Home\Model\AdminModel;
 use Home\Model\OrderModel;
 use Home\Model\RepairApplicationModel;
 use Home\Model\UserModel;
-use Think\Model;
 
-class AdminService extends Model
+class AdminService extends BaseService
 {
-    public function __construct()
-    {
-    }
-
     /**
      * @return array|void
      */
     public function initWeb()
     {
         // 首先获取当前用户角色类型
-        $uid = I("post.uid");
-        $identify = I("post.identify");
+        $data = $this->dataToken(I("token"));
+
+        if (!$data['success']) {
+            return message($data['msg'], $data['success'], $data['data']);
+        }
+
+        $uid = $data['data']['id'];
+        $identify = $data['data']['role'];
 
         $countDatas = array();          // 数据统计
         $quickHref = array();           // 快速跳转

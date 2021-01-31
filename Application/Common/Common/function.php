@@ -17,8 +17,8 @@ if (defined('IS_API')) {
         return $msg;
     }
 }else{
-    function message($msg = "操作成功" , $success = true , $data = array()){
-        $msg =  array("success" => $success , "msg" => $msg , "data" => $data);
+    function message($msg = "操作成功" , $success = true , $data = array(), $code = 200){
+        $msg =  array("success" => $success , "msg" => $msg , "data" => $data, 'code' => $code);
         return $msg;
     }
 }
@@ -369,9 +369,9 @@ function sub_str($str, $start=0, $length, $suffix=true, $charset="utf-8") {
 /**
  * 按符号截取字符串的指定部分
  *
- * @param unknown $str 需要截取的字符串
- * @param unknown $sign 需要截取的符号
- * @param unknown $number 如是正数以0为起点从左向右截  负数则从右向左截
+ * @param string $str 需要截取的字符串
+ * @param string $sign 需要截取的符号
+ * @param integer $number 如是正数以0为起点从左向右截  负数则从右向左截
  * @return string 返回截取的内容
  */
 /* 示例
@@ -454,9 +454,9 @@ function get_url_to_domain($domain) {
 /**
  * 发送邮件
  *
- * @param unknown $address 需要发送的邮箱地址 发送给多个地址需要写成数组形式
- * @param unknown $subject 标题
- * @param unknown $content 内容
+ * @param string|array $address 需要发送的邮箱地址 发送给多个地址需要写成数组形式
+ * @param string $subject 标题
+ * @param string $content 内容
  * @return array|int[] 是否成功
  * @throws phpmailerException
  */

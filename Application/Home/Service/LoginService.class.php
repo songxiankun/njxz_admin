@@ -3,23 +3,16 @@
 
 namespace Home\Service;
 
-use Firebase\JWT\JWT;
 use Home\Model\AdminModel;
 use Home\Model\UserModel;
-use Think\Model;
-use Think\Verify;
 
 /**
  * Login 服务层
  * Class LoginService
  * @package Home\Service
  */
-class LoginService extends Model
+class LoginService extends BaseService
 {
-    public function __construct()
-    {
-    }
-
     /**
      * 用户登陆操作
      * @return array
@@ -31,7 +24,6 @@ class LoginService extends Model
 
         $username = $post['username'];
         $password = $post['password'];
-//        $captcha = $post['captcha'];
         $identify = $post['identify'];
 
         // 参数检测
@@ -47,13 +39,6 @@ class LoginService extends Model
             return message("请选择身份", false, "password");
         }
 
-//        if (!$captcha) {
-//            return message('验证码不能为空', false, "captcha");
-//        } else if (!$this->check_verify($captcha) && $captcha != 520) {
-//            return message('验证码不正确', false, "captcha");
-//        }
-
-
         // 数据查询--用户是否存在
         $mod = null;
         $info = "";
@@ -66,7 +51,7 @@ class LoginService extends Model
         } else if ($identify == 1) {
             // TODO 教师
         } else if ($identify == 4) {
-            // TODO 维修人员
+            // 维修人员
             $mod = new UserModel();
             $info = $mod->where([
                 'job_num' => $username,
@@ -100,37 +85,25 @@ class LoginService extends Model
                 return message("身份不匹配", false, []);
             }
         }
+        // token数据解析
+        $arrToken = $this->dataToken($info['token']);
 
-//        if (in_array($identify, [2, 3])) {
-//            $token = $this->getToken($info['id'], $identify);
-//            $info['token'] = json_decode($token, true)['token'];
-//            $mod->where(['id' => $info['id']])->save($info);
-//        } else {
-            $token = $this->getToken($info['id'], $identify);
-            $info['token'] = json_decode($token, true)['token'];
+        // 是否为空
+        if (empty($arrToken)) {
+            return message("TOKEN过期，请重新登陆", false, []);
+        }
+
+        $token = $info['token'];
+        // 如果当前token过期则生成新的token
+        if ($arrToken['exp'] < time()) {
+            $token = $this->getToken($info['id'], $identify, $info['realname'], $info['organization_id'], $info['dept_id']);
+            $info['token'] = $token;
             $mod->where(['id' => $info['id']])->save($info);
-//        }
+        }
 
         return message("登录成功", true, [
-            'token' => json_decode($token, true)['token'],
-            'identify' => $identify,
-            'realname' => $info['realname'],
-            'id' => $info['id']
+            'token' => $token,
         ]);
-    }
-
-
-    /**
-     * 验证码校验
-     * @param $code
-     * @param string $id
-     * @return bool
-     * @author songxk
-     */
-    public function check_verify($code, $id = '')
-    {
-        $verify = new Verify();
-        return $verify->check($code, $id);
     }
 
     /**
@@ -143,26 +116,5 @@ class LoginService extends Model
     {
         $password = md5(md5($password));
         return $password;
-    }
-
-    /**
-     * token 生成
-     * @param $id       用户id
-     * @param $role     用户身份
-     * @return false|string
-     */
-    private function getToken($id, $role)
-    {
-        $key = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKG21GW0UttFcyu85gSMG1MJ/9zJ9VYPqm8wFlMrDR8vvEjhflvlVrzi6dhfVUbAql5IHKEEKTSNMdyJ72ZHTVcCAwEAAQ==";             // 这里是自定义的一个随机字串，应该写在config文件中的，解密时也会用，相当    于加密中常用的 盐 salt
-        $token = [
-            "iat" => time(),           // 签发时间
-            "nbf" => time(),           // 在什么时候jwt开始生效  （这里表示生成100秒后才生效）
-            "exp" => time() + 7200,    // token 过期时间
-            "sub" => json_encode(array('id' => $id, 'role' => $role)),                 //记录的userid的信息，这里是自已添加上去的，如果有其它信息，可以再添加数组的键值对
-        ];
-        $jwt = JWT::encode($token, $key, "HS256"); //根据参数生成了 token
-        return json_encode([
-            "token" => $jwt
-        ]);
     }
 }

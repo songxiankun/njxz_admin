@@ -5,12 +5,8 @@ namespace Home\Service;
 use Home\Model\UserModel;
 use Think\Model;
 
-class UserService extends Model
+class UserService extends BaseService
 {
-    public function __construct()
-    {
-    }
-
     /**
      * 获取用户消息
      * @return array

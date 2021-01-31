@@ -19,6 +19,7 @@ class IndexController extends BaseController
 
     public function __construct()
     {
+        parent::__construct(true);
         $this->adminService = new AdminService();
     }
 
@@ -57,6 +58,15 @@ class IndexController extends BaseController
             return;
         }
         $this->ajaxReturn(message('非法请求', false, []));
+    }
+
+    /**
+     * 根据用户提供的token 获取用户的 id realname role
+     */
+    public function getInfoByToken()
+    {
+        $token = I("token");
+        $this->ajaxReturn($this->dataToken($token));
     }
 
     /**
