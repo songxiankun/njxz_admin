@@ -76,21 +76,22 @@ class IndexController extends BaseController
     public function getUserInfo()
     {
         if (IS_POST) {
-            $identify = I("post.identify");
-            $res = message('非法操作', false, []);
+            $token = $this->dataToken(I("post.token"));
+            $identify = $token['data']['data']['role'];
+            // 身份
+            $res = '';
             if ($identify == 1) // 教师
             {}
             else if (in_array($identify, [2, 3]))   // 机房管理员
             {
-                $res = $this->adminService->getInfo();
+                $res = $this->adminService->getInfo($token['data']['data']['id']);
             }
             else if ($identify == 4) // 维修人员
             {
                 $userService = new UserService();
-                $res = $userService->getInfo();
+                $res = $userService->getInfo($token['data']['data']['id']);
             }
             $this->ajaxReturn($res);
-            return;
         }
        $this->ajaxReturn(message('非法请求', false, []));
     }
@@ -102,18 +103,19 @@ class IndexController extends BaseController
     public function editUserInfo()
     {
         if (IS_POST) {
-            $identify = I("post.identify");
-            $res = message('非法操作', false, []);
+            $token = $this->dataToken(I("post.token"));
+            $identify = $token['data']['data']['role'];
+            $res = '';
             if ($identify == 1) // 教师
             {}
             else if (in_array($identify, [2, 3]))   // 机房管理员
             {
-                $res = $this->adminService->edit();
+                $res = $this->adminService->edit($token['data']['data']['id']);
             }
             else if ($identify == 4) // 维修人员
             {
                 $userService = new UserService();
-                $res = $userService->edit();
+                $res = $userService->edit($token['data']['data']['id']);
             }
             $this->ajaxReturn($res);
             return;
@@ -129,18 +131,19 @@ class IndexController extends BaseController
     public function updatePassword()
     {
         if (IS_POST) {
-            $identify = I("post.identify");
+            $token = $this->dataToken(I("post.token"));
+            $identify = $token['data']['data']['role'];
             $res = message('非法操作', false, []);
             if ($identify == 1) // 教师
             {}
             else if (in_array($identify, [2, 3]))   // 机房管理员
             {
-                $res = $this->adminService->update();
+                $res = $this->adminService->update($token['data']['data']['id']);
             }
             else if ($identify == 4) // 维修人员
             {
                 $userService = new UserService();
-                $res = $userService->update();
+                $res = $userService->update($token['data']['data']['id']);
             }
             $this->ajaxReturn($res);
             return;

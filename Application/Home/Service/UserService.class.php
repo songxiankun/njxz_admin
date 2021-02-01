@@ -9,11 +9,11 @@ class UserService extends BaseService
 {
     /**
      * 获取用户消息
+     * @param $uid
      * @return array
      */
-    public function getInfo()
+    public function getInfo($uid)
     {
-        $uid = I("post.uid");
         $userMod = new UserModel();
         $info = $userMod->field('id, avatar, job_num, mobile, email, note')
             ->where([
@@ -34,18 +34,24 @@ class UserService extends BaseService
      * 更新用户信息
      * @author songxk
      */
-    public function edit()
+    public function edit($id)
     {
         $data = I("post.");  // 获取所有信息
         $userMod = new UserModel();
 
+        $data['id'] = $id;
         if (isset($data['id']) && $data['id'])
         {
             $count = $userMod->where(['mobile' => $data['mobile']])->count();
-            if ($count > 1) {
+            if ($count > 0) {
                 return message("手机号码已注册", false, []);
             }
         }
+
+        if (isset($data['token']) && $data['token'])
+            unset($data['token']);
+
+        unset($data['file']);
 
         $res = $userMod->save($data);
 
@@ -57,12 +63,13 @@ class UserService extends BaseService
 
     /**
      * 更新密码
+     * @param $id_
      * @return array
      */
-    public function update()
+    public function update($id_)
     {
         $data = I("post.");
-        $id = $data['uid'];
+        $id = $id_;
         $old_password = $data['old_password'];
         $new_password = $data['new_password'];
         $again_password = $data['again_password'];

@@ -24,7 +24,7 @@ class UploadController extends BaseController
         $config = array(
             'maxSize'    =>    C('UPLOAD')['UPLOAD_IMG_SIZE'] * 1024,
             'rootPath'   =>    IMG_PATH,
-            'savePath'   =>    '/temp/',
+            'savePath'   =>    '/web/',
             'saveName'   =>    array('uniqid',''),
             'exts'       =>    explode('|', C('UPLOAD')['UPLOAD_IMG_EXT']),
             'subName'    =>    "",
@@ -59,7 +59,7 @@ class UploadController extends BaseController
         $upload->maxSize = C('UPLOAD')['UPLOAD_FILE_SIZE'] * 1024;                  // 设置附件上传大小
         $upload->exts = explode('|', C('UPLOAD')['UPLOAD_IMG_EXT']);      // 设置附件上传类型
         $upload->rootPath = IMG_PATH; // 设置附件上传根目录
-        $upload->savePath = '/temp/';
+        $upload->savePath = '/web/';
         $upload->subName = "";
         $info = $upload->uploadOne($_FILES['file']);
         if (!$info) {

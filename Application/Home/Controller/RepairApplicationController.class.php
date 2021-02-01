@@ -52,6 +52,19 @@ class RepairApplicationController extends BaseController
     }
 
     /**
+     * 获取订单信息
+     * @author kunkun
+     */
+    public function getOrderInfo()
+    {
+        if (IS_POST) {  // post 请求
+            $res = $this->service->getOrderInfo();
+            $this->ajaxReturn($res);
+        }
+        $this->ajaxReturn(message("非法请求", false, []));
+    }
+
+    /**
      * 更新申请订单状态
      * @author songxk
      */
@@ -59,6 +72,18 @@ class RepairApplicationController extends BaseController
     {
         if (IS_POST) {
             $res = $this->service->update();
+            $this->ajaxReturn($res);
+        }
+        $this->ajaxReturn(message("非法请求", false, []));
+    }
+
+    /**
+     * 维修人员接单
+     * @author songxk
+     */
+    public function updateOrder() {
+        if (IS_POST) {
+            $res = $this->service->updateOrder();
             $this->ajaxReturn($res);
         }
         $this->ajaxReturn(message("非法请求", false, []));

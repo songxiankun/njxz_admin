@@ -409,11 +409,11 @@ class AdminService extends BaseService
 
     /**
      * 获取用户消息
+     * @param $uid
      * @return array
      */
-    public function getInfo()
+    public function getInfo($uid)
     {
-        $uid = I("post.uid");
         $adminMod = new AdminModel();
         $info = $adminMod->field('id, avatar, num, mobile, email, note')
             ->where([
@@ -430,21 +430,34 @@ class AdminService extends BaseService
 
     /**
      * 更新用户信息
+     * @param $id
+     * @return array
      * @author songxk
      */
-    public function edit()
+    public function edit($id)
     {
         $data = I("post.");  // 获取所有信息
         $adminMod = new AdminModel();
+        $data['id'] = $id;
 
-        if (isset($data['id']) && $data['id'])
+        if ($id)
         {
             $counts = $adminMod->where(['mobile' => $data['mobile'], 'mark' => 1])->count();
-            if ($counts > 1) {
+            if ($counts == 1) {
+                $info = $adminMod->field('id')->where(['mobile' => $data['mobile'], 'mark' => 1])->find();
+                if ($info['id'] != $id)
+                    return message("手机号码已注册", false, []);
+            } else if ($counts > 1)
                 return message("手机号码已注册", false, []);
-            }
         }
+
+        if (isset($data['token']) && $data['token'])
+            unset($data['token']);
+
+        unset($data['file']);
+
         $res = $adminMod->save($data);
+
         if (!$res) {
             return message("保存失败", false, []);
         }
@@ -453,19 +466,24 @@ class AdminService extends BaseService
 
     /**
      * 用户密码更新
+     * @param $id
      * @return array
      */
-    public function update()
+    public function update($id)
     {
         $data = I("post.");
-        $id = $data['uid'];
         $old_password = $data['old_password'];
         $new_password = $data['new_password'];
         $again_password = $data['again_password'];
 
+        if ($old_password == $new_password) {
+            return message("新密码和旧密码一致", false, []);
+        }
+
         if ($new_password != $again_password) {
             return message("密码与确认密码不一致", false, []);
         }
+
         $adminMod = new AdminModel();
         $info = $adminMod->field('password')->where(['id' => $id, 'mark' => 1])->find();
 

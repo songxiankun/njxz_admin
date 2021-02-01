@@ -219,9 +219,6 @@ class BaseController extends Controller {
     
     /**
      * 获取面包屑
-     *
-     * @author zongjl
-     * @date 2018-11-30
      */
     function getCrumb($menuId) {
         $menuMod = new MenuModel();
@@ -232,9 +229,6 @@ class BaseController extends Controller {
 
     /**
      * 模板渲染
-     * 
-     * @author zongjl
-     * @date 2018-07-11
      */
     public function render($tpl="", $data=array()) {
         if (empty($tpl)) {
@@ -260,9 +254,6 @@ class BaseController extends Controller {
     
     /**
      * 删除一条数据
-     *
-     * @author zongjl
-     * @date 2018-07-12
      */
     function drop() {
         if(IS_POST) {

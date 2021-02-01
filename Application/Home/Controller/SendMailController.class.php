@@ -21,7 +21,7 @@ class SendMailController extends BaseController
      * 发送邮件
      * @param array $data => [toAddress (array or string), toName(array or string), subject, htmlData, data]
      */
-    public function sendEmail($data = array(
+    private function sendEmail($data = array(
         'toAddress' => '1281541477@qq.com',
         'toName'    => 'kunkun',
         'subject'   => '这个是主题',
