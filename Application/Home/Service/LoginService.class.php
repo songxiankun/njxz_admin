@@ -49,7 +49,11 @@ class LoginService extends BaseService
                 'mark' => 1,
             ])->find();
         } else if ($identify == 1) {
-            // TODO 教师
+            $mod = new UserModel();
+            $info = $mod->where([
+                'job_num' => $username,
+                'mark' => 1,
+            ])->find();
         } else if ($identify == 4) {
             // 维修人员
             $mod = new UserModel();
@@ -57,6 +61,18 @@ class LoginService extends BaseService
                 'job_num' => $username,
                 'mark' => 1,
             ])->find();
+        }
+
+        if (isset($info['last_login_time'])) {
+            $info['last_login_time'] = time();
+        }
+
+        if (isset($info['login_count']) && $info['login_count'] >= 0) {
+            $info['login_count']++;
+        }
+
+        if (isset($info['upd_time'])) {
+            $info['upd_time'] = time();
         }
 
         if (!$info) {
@@ -70,8 +86,12 @@ class LoginService extends BaseService
             return message("您的登录密码不正确", false, "password");
         }
 
-        if ($info['status'] != 1) {
-            return message("您的帐号已被禁言，请联系管理员", false);
+        if ($info['status'] == 0) {
+            return message("您的帐号未激活，请前往邮箱激活", false);
+        }
+
+        if ($info['status'] == 2) {
+            return message("您的帐号已被禁用，请联系管理员", false);
         }
 
         if ($identify == 2) { // 机房管理员
@@ -87,11 +107,6 @@ class LoginService extends BaseService
         }
         // token数据解析
         $arrToken = $this->dataToken($info['token']);
-
-        // 是否为空
-        if (empty($arrToken)) {
-            return message("TOKEN过期，请重新登陆", false, []);
-        }
 
         $token = $info['token'];
         // 如果当前token过期则生成新的token

@@ -237,6 +237,8 @@ class Zeus {
 
     /**
      * 生成MD5加密的密码
+     * @param $password
+     * @return string
      */
     static function getPassWord($password){
         return md5(md5($password));
@@ -244,6 +246,8 @@ class Zeus {
 
     /**
      * 根据出生日期计算年龄
+     * @param $birthday
+     * @return false|int|string
      */
     static function getAgeFromBirthday($birthday){
         //格式化出生时间年月日

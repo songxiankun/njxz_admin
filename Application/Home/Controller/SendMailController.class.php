@@ -20,8 +20,9 @@ class SendMailController extends BaseController
     /**
      * 发送邮件
      * @param array $data => [toAddress (array or string), toName(array or string), subject, htmlData, data]
+     * @return array
      */
-    private function sendEmail($data = array(
+    public function sendEmail($data = array(
         'toAddress' => '1281541477@qq.com',
         'toName'    => 'kunkun',
         'subject'   => '这个是主题',
@@ -64,9 +65,9 @@ class SendMailController extends BaseController
             $mail->AltBody = $data['data'];
 
             $mail->send();
-            return (message('邮件发送成功', true, [], 200));
+            $this->ajaxReturn(message('邮件发送成功', true, [], 200));
         } catch (Exception $e) {
-            return (message('邮件发送失败：'. $mail->ErrorInfo, false, [], 200));
+            $this->ajaxReturn(message('邮件发送失败：'. $mail->ErrorInfo, false, [], 200));
         }
     }
 }

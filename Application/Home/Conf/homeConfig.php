@@ -28,4 +28,5 @@ return array(
     ),
     'order_prefix' => 'NJXZ',
     'email_url'    => 'http://home.njxzc.edu.cn',
+    'api'          => 'http://api.njxzc.edu.cn'
 );
