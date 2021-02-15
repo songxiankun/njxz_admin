@@ -13,6 +13,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use Think\Exception;
 use Think\Model;
 
+//解决API文档跨域调试请求的问题
+header("Access-Control-Allow-Origin: *");
 class BaseService extends Model
 {
     public function __construct()
@@ -85,7 +87,7 @@ class BaseService extends Model
         'data'      =>  '这个是去除html的信息'
     ))
     {
-
+        header('Access-Control-Allow-Origin: *');
         if ($this->email_isOn()) {   // 查看是否开启发送邮件功能
             // 开启异常捕捉
             $mail = new PHPMailer(true);

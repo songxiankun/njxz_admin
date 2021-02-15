@@ -37,6 +37,6 @@ class UserController extends BaseController
      */
     public function status() {
         $res = $this->userService->updateStatus();
-        $this->redirect('home.njxzc.edu.cn', [], 1500, $res['msg']);
+        $this->redirect(C('api'), [], 1500, $res['msg']);
     }
 }

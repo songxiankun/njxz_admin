@@ -5,6 +5,7 @@ namespace Home\Controller;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+use Think\Controller;
 
 /**
  * Class SendMailController
@@ -12,11 +13,6 @@ use PHPMailer\PHPMailer\Exception;
  */
 class SendMailController extends BaseController
 {
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
     /**
      * 发送邮件
      * @param array $data => [toAddress (array or string), toName(array or string), subject, htmlData, data]

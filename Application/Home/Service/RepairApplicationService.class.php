@@ -533,14 +533,26 @@ class RepairApplicationService extends BaseService
     public function getOrderInfo()
     {
         /**
-         * order_id: 5
-         * app_id: 2
+         *  order_id: 8
+            app_id: 3
          */
         $data = I("post.");
+        $map = array(
+            'mark' => 1
+        );
+        // 订单id
+        if (isset($data['order_id']) && $data['order_id']) {
+            $map['id'] = $data['order_id'];
+        }
+        // 申请id
+        if (isset($data['app_id']) && $data['app_id']) {
+            $map['repair_app_id'] = $data['app_id'];
+        }
+
         // 查询当前是否已接单
         $orderMod = new OrderModel();
         // 当前订单信息
-        $orderInfo = $orderMod->where($data)->find();
+        $orderInfo = $orderMod->where($map)->find();
         if (empty($orderInfo)) {
             return message('该订单不存在，请核实~', false, []);
         }
