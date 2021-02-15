@@ -658,6 +658,15 @@ class RepairApplicationService extends BaseService
     {
         // receive_time user_id status upd_time
         $data = I("post.");
+        if (!(isset($data['order_id']) && $data['order_id'])) {
+            return message("缺少必要参数", false, ['order_id' => "缺少订单id"]);
+        }
+        if (!(isset($data['app_id']) && $data['app_id'])) {
+            return message("缺少必要参数", false, ['app_id' => "缺少维修单id"]);
+        }
+        if(!(isset($data['uid']) && $data['uid'])) {
+            return message("缺少必要参数", false, ['uid' => "缺少维修人员id"]);
+        }
         // 查询当前订单是否存在
         $orderMod = new OrderModel();
         $map = [
