@@ -17,12 +17,14 @@ class AdminService extends BaseService
     {
         // 首先获取当前用户角色类型
         $data = $this->dataToken(I("token"));
-
+        // 解析token是否成功
         if (!$data['success']) {
             return message($data['msg'], $data['success'], $data['data']);
         }
-
+        // $data['data'] = array('id', 'role', 'realname', 'organization_id', 'department_id')
+        // 用户id
         $uid = $data['data']['id'];
+        // 用户身份
         $identify = $data['data']['role'];
 
         $countDatas = array();          // 数据统计
@@ -45,12 +47,48 @@ class AdminService extends BaseService
         $end = strtotime(date("Y-m-d")) + 86400;             // 24
 
         if ($identify == 1) {           // 教师
-            // TODO
-        }
-        elseif (in_array($identify, [2, 3])) {         // 机房管理员
+            $mod = new UserModel();
+            $map = array(
+                array(
+                    'user_id' => $uid,
+                    'source' => C("teacher"),
+                    'mark' => 1,
+                    'add_time' => array('between', array($start - 24 * 3600 * 6, $end - 24 * 3600 * 6))),  // -6
+                array(
+                    'user_id' => $uid,
+                    'mark' => 1,
+                    'source' => C("teacher"),
+                    'add_time' => array('between', array($start - 24 * 3600 * 5, $end - 24 * 3600 * 5))),  // -5
+                array(
+                    'user_id' => $uid,
+                    'mark' => 1,
+                    'source' => C("teacher"),
+                    'add_time' => array('between', array($start - 24 * 3600 * 4, $end - 24 * 3600 * 4))),  // -4
+                array(
+                    'user_id' => $uid,
+                    'mark' => 1,
+                    'source' => C("teacher"),
+                    'add_time' => array('between', array($start - 24 * 3600 * 3, $end - 24 * 3600 * 3))),   // -3
+                array(
+                    'user_id' => $uid,
+                    'mark' => 1,
+                    'source' => C("teacher"),
+                    'add_time' => array('between', array($start - 24 * 3600 * 2, $end - 24 * 3600 * 2))),  // -2
+                array(
+                    'user_id' => $uid,
+                    'mark' => 1,
+                    'source' => C("teacher"),
+                    'add_time' => array('between', array($start - 24 * 3600, $end - 24 * 3600))),   // -1
+                array(
+                    'user_id' => $uid,
+                    'mark' => 1,
+                    'source' => C("teacher"),
+                    'add_time' => array('between', array($start, $end)))   // 0
+            );
+        } elseif (in_array($identify, [2, 3])) {         // 机房管理员
             $mod = new AdminModel();
             // 7天内date 数量
-            $map = array([
+            $map = array(
                 array(
                     'admin_id' => $uid,
                     'mark' => 1,
@@ -79,40 +117,46 @@ class AdminService extends BaseService
                     'admin_id' => $uid,
                     'mark' => 1,
                     'add_time' => array('between', array($start, $end)))   // 0
-            ]);
-        }
-        elseif ($identify == 4) {     // 维修人员
+            );
+        } elseif ($identify == 4) {     // 维修人员
             $mod = new UserModel();
-            $map = array([
+            $map = array(
                 array(
                     'user_id' => $uid,
                     'mark' => 1,
+                    'source' => C("worker"),
                     'add_time' => array('between', array($start - 24 * 3600 * 6, $end - 24 * 3600 * 6))),  // -6
                 array(
                     'user_id' => $uid,
                     'mark' => 1,
+                    'source' => C("worker"),
                     'add_time' => array('between', array($start - 24 * 3600 * 5, $end - 24 * 3600 * 5))),  // -5
                 array(
                     'user_id' => $uid,
                     'mark' => 1,
+                    'source' => C("worker"),
                     'add_time' => array('between', array($start - 24 * 3600 * 4, $end - 24 * 3600 * 4))),  // -4
                 array(
                     'user_id' => $uid,
                     'mark' => 1,
+                    'source' => C("worker"),
                     'add_time' => array('between', array($start - 24 * 3600 * 3, $end - 24 * 3600 * 3))),   // -3
                 array(
                     'user_id' => $uid,
                     'mark' => 1,
+                    'source' => C("worker"),
                     'add_time' => array('between', array($start - 24 * 3600 * 2, $end - 24 * 3600 * 2))),  // -2
                 array(
                     'user_id' => $uid,
                     'mark' => 1,
+                    'source' => C("worker"),
                     'add_time' => array('between', array($start - 24 * 3600, $end - 24 * 3600))),   // -1
                 array(
                     'user_id' => $uid,
                     'mark' => 1,
+                    'source' => C("worker"),
                     'add_time' => array('between', array($start, $end)))   // 0
-            ]);
+            );
         }
 
         // 判断当前用户是否真实
@@ -127,22 +171,22 @@ class AdminService extends BaseService
         $orderMod = new OrderModel();
 
         // 数据统计OK --
-        if ($identify == 2) {  //  数据统计
+        if ($identify == 2) {  //  数据统计   ---- 机房管理员
             $countDatas[0]['title'] = "申请统计";
             $countDatas[0]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1])->count();
-            $countDatas[1]['title'] = "待审批统计";
+            $countDatas[1]['title'] = "待审批";
             $countDatas[1]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 1])->count();
-            $countDatas[2]['title'] = "审批通过统计";
+            $countDatas[2]['title'] = "审批通过";
             $countDatas[2]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 3])->count();
-            $countDatas[3]['title'] = "审批未通过统计";
+            $countDatas[3]['title'] = "审批未过";
             $countDatas[3]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 2])->count();
             $countDatas[4]['title'] = "维修统计";
             $countDatas[4]['nums'] = $orderMod->where(['admin_id' => $uid, 'mark' => 1])->count();
-            $countDatas[5]['title'] = "待维修统计";
+            $countDatas[5]['title'] = "待维修";
             $countDatas[5]['nums'] = $orderMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 1])->count();
-            $countDatas[6]['title'] = "维修中统计";
+            $countDatas[6]['title'] = "维修中";
             $countDatas[6]['nums'] = $orderMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 2])->count();
-            $countDatas[7]['title'] = "已维修统计";
+            $countDatas[7]['title'] = "已维修";
             $countDatas[7]['nums'] = $orderMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 3])->count();
 
             // 快速通道
@@ -172,15 +216,15 @@ class AdminService extends BaseService
             $quickHref[6]['icon'] = "fa fa-snowflake-o";
             $quickHref[6]['title'] = "维修结束";
         }
-        else if ($identify == 3) {
+        else if ($identify == 3) {   // 审核人员
             // 数据统计
             $countDatas[0]['title'] = "审核统计";
             $countDatas[0]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1])->count();
-            $countDatas[1]['title'] = "待审批统计";
+            $countDatas[1]['title'] = "待审批";
             $countDatas[1]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 1])->count();
-            $countDatas[2]['title'] = "审批通过统计";
+            $countDatas[2]['title'] = "审批通过";
             $countDatas[2]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 3])->count();
-            $countDatas[3]['title'] = "审批未通过统计";
+            $countDatas[3]['title'] = "审批未过";
             $countDatas[3]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 2])->count();
 
             // 快速通达
@@ -210,13 +254,13 @@ class AdminService extends BaseService
             $countDatas[2]['title'] = "维修统计";
             $countDatas[2]['nums'] = $orderMod->where(['mark' => 1, 'user_id' => $uid])->count();
 
-            $countDatas[3]['title'] = "待维修统计";
+            $countDatas[3]['title'] = "待维修";
             $countDatas[3]['nums'] = $orderMod->where(['user_id' => $uid, 'mark' => 1, 'status' => 1])->count();
 
-            $countDatas[4]['title'] = "维修中统计";
+            $countDatas[4]['title'] = "维修中";
             $countDatas[4]['nums'] = $orderMod->where(['user_id' => $uid, 'mark' => 1, 'status' => 2])->count();
 
-            $countDatas[5]['title'] = "维修结束统计";
+            $countDatas[5]['title'] = "维修结束";
             $countDatas[5]['nums'] = $orderMod->where(['user_id' => $uid, 'mark' => 1, 'status' => 3])->count();
 
             $countDatas[5]['title'] = "待签字";
@@ -255,8 +299,33 @@ class AdminService extends BaseService
             $quickHref[6]['href'] = "/page/table/worker/order/list.html?status=6";
             $quickHref[6]['icon'] = "fa fa-calendar";
             $quickHref[6]['title'] = "已签字";
-        } else if ($identify == 1) {// 教师
-            // TODO 教师下次做
+        }
+        else if ($identify == 1) {  // 教师
+            $countDatas[0]['title'] = "申请统计";
+            $countDatas[0]['nums'] = $repairMod->where(['user_id' => $uid, 'mark' => 1])->count();
+            $countDatas[1]['title'] = "待审核";
+            $countDatas[1]['nums'] = $repairMod->where(['user_id' => $uid, 'mark' => 1, 'status' => 1])->count();
+            $countDatas[2]['title'] = "审核通过";
+            $countDatas[2]['nums'] = $repairMod->where(['user_id' => $uid, 'mark' => 1, 'status' => 3])->count();
+            $countDatas[3]['title'] = "审核未过";
+            $countDatas[3]['nums'] = $repairMod->where(['user_id' => $uid, 'mark' => 1, 'status' => 2])->count();
+
+            // 快速通道
+            $quickHref[0]['href'] = "/page/table/application/create_application.html";
+            $quickHref[0]['icon'] = "fa fa-file-text";
+            $quickHref[0]['title'] = "创建申请";
+
+            $quickHref[1]['href'] = "/page/table/application/apply.html?t_id=1";
+            $quickHref[1]['icon'] = "fa fa-file-text";
+            $quickHref[1]['title'] = "待审核";
+
+            $quickHref[2]['href'] = "/page/table/application/apply.html?t_id=2";
+            $quickHref[2]['icon'] = "fa fa-gears";
+            $quickHref[2]['title'] = "未通过";
+
+            $quickHref[3]['href'] = "/page/table/application/apply.html?t_id=3";
+            $quickHref[3]['icon'] = "fa fa-file-text";
+            $quickHref[3]['title'] = "已通过";
         }
         // echarts 获取标题
         foreach ($countDatas as $k => $v) {
@@ -265,11 +334,62 @@ class AdminService extends BaseService
 
 
         // echarts series
-        for ($i = 0; $i <= 7; $i++) {
+        for ($i = 0; $i < sizeof($title); $i++) {
             $series[$i]['type'] = 'line';
             $series[$i]['name'] = $title[$i];
-
-            if ($identify == 2) {   // 普通管理员
+            if ($identify == 2) {   // 机房管理员
+                // 7天内的统计
+                for ($j = 0; $j < 7; $j++) {
+                    switch ($i) {
+                        case 0:  // 申请统计
+                            $series[$i]['data'][$j] = $repairMod->where($map[$j])->count();
+                            break;
+                        case 1:  // 待审批 1 待审核 2、审核未通过 3、审核通过',
+                        {
+                            $map[$j]['status'] = 1;
+                            $series[$i]['data'][$j] = $repairMod->where($map[$j])->count();
+                            break;
+                        }
+                        case 2: // 审批通过
+                        {
+                            $map[$j]['status'] = 3;
+                            $series[$i]['data'][$j] = $repairMod->where($map[$j])->count();
+                            break;
+                        }
+                        case 3: // 审批未过
+                        {
+                            $map[$j]['status'] = 2;
+                            $series[$i]['data'][$j] = $repairMod->where($map[$j])->count();
+                            break;
+                        }
+                        case 4: // 维修统计
+                        {
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
+                            break;
+                        }
+                        case 5: // 待维修 '0、待接单1、待维修 2、维修中 3、维修结束 ',
+                        {
+                            $map[$j]['status'] = 1;
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
+                            break;
+                        }
+                        case 6:  // 维修中
+                        {
+                            $map[$j]['status'] = 2;
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
+                            break;
+                        }
+                        case 7: // 已维修
+                        {
+                            $map[$j]['status'] = 3;
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
+                            break;
+                        }
+                    }
+                }
+            }
+            else if ($identify == 1)  // 教师
+            {
                 for ($j = 0; $j < 7; $j++) {
                     switch ($i) {
                         case 0:
@@ -284,44 +404,20 @@ class AdminService extends BaseService
                         case 2:
                         {
                             $map[$j]['status'] = 3;
-                            $series[$i]['data'][$j] = $repairMod->where($map)->count();
+                            $series[$i]['data'][$j] = $repairMod->where($map[$j])->count();
                             break;
                         }
                         case 3:
                         {
                             $map[$j]['status'] = 2;
-                            $series[$i]['data'][$j] = $repairMod->where($map)->count();
-                            break;
-                        }
-                        case 4:
-                        {
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
-                            break;
-                        }
-                        case 5:
-                        {
-                            $map[$j]['status'] = 1;
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
-                            break;
-                        }
-                        case 6:
-                        {
-                            $map[$j]['status'] = 2;
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
-                            break;
-                        }
-                        case 7:
-                        {
-                            $map[$j]['status'] = 3;
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
+                            $series[$i]['data'][$j] = $repairMod->where($map[$j])->count();
                             break;
                         }
                     }
                 }
-            } else if ($identify == 1)  // 教师
-            {
-            } else if ($identify == 3) {
-                for ($j = 0; $j < 4; $j++) {
+            }
+            else if ($identify == 3) {  // 审核管理员
+                for ($j = 0; $j < 7; $j++) {
                     switch ($i) {
                         case 0:
                             $series[$i]['data'][$j] = $repairMod->where($map[$j])->count();
@@ -335,67 +431,69 @@ class AdminService extends BaseService
                         case 2:
                         {
                             $map[$j]['status'] = 3;
-                            $series[$i]['data'][$j] = $repairMod->where($map)->count();
+                            $series[$i]['data'][$j] = $repairMod->where($map[$j])->count();
                             break;
                         }
                         case 3:
                         {
                             $map[$j]['status'] = 2;
-                            $series[$i]['data'][$j] = $repairMod->where($map)->count();
+                            $series[$i]['data'][$j] = $repairMod->where($map[$j])->count();
                             break;
                         }
                     }
                 }
-            } else if ($identify == 4) // 维修工人
+            }
+            else if ($identify == 4) // 维修工人
             {
                 for ($j = 0; $j < 7; $j++) {  // 待接单 已接单 待维修 维修中 维修结束 待签字 已签字
                     switch ($i) {
                         case 0:
                         {
                             $map[$j]['status'] = 0;
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
                             break;
                         }
                         case 1:
                         {
                             $map[$j]['status'] = array('neq', 0);
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
                             break;
                         }
                         case 2:
                         {
                             $map[$j]['status'] = 1;
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
                             break;
                         }
                         case 3:
                         {
                             $map[$j]['status'] = 2;
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
                             break;
                         }
                         case 4:
                         {
                             $map[$j]['status'] = 3;
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
                             break;
                         }
                         case 5:   // 待签字
                         {
                             $map[$j]['sign_id'] = array('eq', null);
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
                             break;
                         }
                         case 6:   // 已签字
                         {
                             $map[$j]['sign_id'] = array('neq', null);
-                            $series[$i]['data'][$j] = $orderMod->where($map)->count();
+                            $series[$i]['data'][$j] = $orderMod->where($map[$j])->count();
                             break;
                         }
                     }
                 }
             }
         }
+
         $allDatas = array(
             'counts' => $countDatas,
             'quickHref' => $quickHref,
@@ -403,6 +501,8 @@ class AdminService extends BaseService
             'date' => $date,
             'series' => $series
         );
+
+//        var_dump($allDatas);die();
         return message("获取成功", true, $allDatas);
     }
 
@@ -440,8 +540,7 @@ class AdminService extends BaseService
         $adminMod = new AdminModel();
         $data['id'] = $id;
 
-        if ($id)
-        {
+        if ($id) {
             $counts = $adminMod->where(['mobile' => $data['mobile'], 'mark' => 1])->count();
             if ($counts == 1) {
                 $info = $adminMod->field('id')->where(['mobile' => $data['mobile'], 'mark' => 1])->find();
@@ -495,12 +594,10 @@ class AdminService extends BaseService
 
         if ($basePass == md5(md5($old_password))) {
             $info['password'] = md5(md5($new_password));
-            $res = $adminMod->where(['id'=>$id])->save($info);
+            $res = $adminMod->where(['id' => $id])->save($info);
             if ($res) {
                 return message("更新成功", true, []);
-            }
-            else
-            {
+            } else {
                 return message("更新失败", false, []);
             }
         } else {

@@ -2,6 +2,8 @@
 
 //【邮件配置】
 return array(
+    'worker'    => 1,  // 修工人
+    'teacher'   => 2,  // 教师
     'send_email_config' => array(
         'charset'       => 'UTF-8',
         'host'          => 'smtp.163.com',
