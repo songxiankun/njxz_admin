@@ -86,35 +86,40 @@ class AdminService extends BaseService
                     'add_time' => array('between', array($start, $end)))   // 0
             );
         } elseif (in_array($identify, [2, 3])) {         // 机房管理员
+            if ($identify == 3) {
+                $key = 'upd_user';
+            } else {
+                $key = 'admin_id';
+            }
             $mod = new AdminModel();
             // 7天内date 数量
             $map = array(
                 array(
-                    'admin_id' => $uid,
+                    $key => $uid,
                     'mark' => 1,
                     'add_time' => array('between', array($start - 24 * 3600 * 6, $end - 24 * 3600 * 6))),  // -6
                 array(
-                    'admin_id' => $uid,
+                    $key => $uid,
                     'mark' => 1,
                     'add_time' => array('between', array($start - 24 * 3600 * 5, $end - 24 * 3600 * 5))),  // -5
                 array(
-                    'admin_id' => $uid,
+                    $key => $uid,
                     'mark' => 1,
                     'add_time' => array('between', array($start - 24 * 3600 * 4, $end - 24 * 3600 * 4))),  // -4
                 array(
-                    'admin_id' => $uid,
+                    $key => $uid,
                     'mark' => 1,
                     'add_time' => array('between', array($start - 24 * 3600 * 3, $end - 24 * 3600 * 3))),   // -3
                 array(
-                    'admin_id' => $uid,
+                    $key => $uid,
                     'mark' => 1,
                     'add_time' => array('between', array($start - 24 * 3600 * 2, $end - 24 * 3600 * 2))),  // -2
                 array(
-                    'admin_id' => $uid,
+                    $key => $uid,
                     'mark' => 1,
                     'add_time' => array('between', array($start - 24 * 3600, $end - 24 * 3600))),   // -1
                 array(
-                    'admin_id' => $uid,
+                    $key => $uid,
                     'mark' => 1,
                     'add_time' => array('between', array($start, $end)))   // 0
             );
@@ -219,13 +224,13 @@ class AdminService extends BaseService
         else if ($identify == 3) {   // 审核人员
             // 数据统计
             $countDatas[0]['title'] = "审核统计";
-            $countDatas[0]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1])->count();
+            $countDatas[0]['nums'] = $repairMod->where(['upd_user' => $uid, 'mark' => 1])->count();
             $countDatas[1]['title'] = "待审批";
-            $countDatas[1]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 1])->count();
+            $countDatas[1]['nums'] = $repairMod->where(['upd_user' => $uid, 'mark' => 1, 'status' => 1])->count();
             $countDatas[2]['title'] = "审批通过";
-            $countDatas[2]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 3])->count();
+            $countDatas[2]['nums'] = $repairMod->where(['upd_user' => $uid, 'mark' => 1, 'status' => 3])->count();
             $countDatas[3]['title'] = "审批未过";
-            $countDatas[3]['nums'] = $repairMod->where(['admin_id' => $uid, 'mark' => 1, 'status' => 2])->count();
+            $countDatas[3]['nums'] = $repairMod->where(['upd_user' => $uid, 'mark' => 1, 'status' => 2])->count();
 
             // 快速通达
             $quickHref[0]['href'] = "/page/table/application/list.html?status=1";
@@ -311,7 +316,7 @@ class AdminService extends BaseService
             $countDatas[3]['nums'] = $repairMod->where(['user_id' => $uid, 'mark' => 1, 'status' => 2])->count();
 
             // 快速通道
-            $quickHref[0]['href'] = "/page/table/application/create_application.html";
+            $quickHref[0]['href'] = "page/table/application/create_application_teacher.html";
             $quickHref[0]['icon'] = "fa fa-file-text";
             $quickHref[0]['title'] = "创建申请";
 

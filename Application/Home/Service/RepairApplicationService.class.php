@@ -216,6 +216,7 @@ class RepairApplicationService extends BaseService
     public function submit()
     {
         $data = I("post.");
+
         if (isset($data['token']) && $data['token']) {
             $tokenData = $this->dataToken($data['token']);
             if (!$tokenData['success']) {
@@ -256,6 +257,81 @@ class RepairApplicationService extends BaseService
                 'toAddress' => $recv_email['email'],
                 'toName' => $recv_email['realname'],
                 'subject' => '您有新的审核订单，请及时审核~~',
+                'htmlData' =>
+                    '<h1>请点击下面链接进行订单审核</h1><br>' . C("email_url") . '/page/table/application/update_application.html?uid=' . $recv_email['id'] . "&rid=" . $this->mod->getLastInsID(),
+                'data' =>
+                    '请点击下面链接进行订单审核: ' . C("email_url") . '/page/table/application/update_application.html?uid=' . $recv_email['id'] . "&rid=" . $this->mod->getLastInsID()]);
+            if ($res['code'] == C("code")['ok']) {   // 发送邮件了
+                // 写入日志 到sms_log
+                $datas = array(
+                    'type' => 2,
+                    'content' => '<h1>请点击下面链接进行订单审核</h1><br>' . C("email_url") . '/page/table/application/update_application.html?uid=' . $recv_email['id'] . "&rid=" . $this->mod->getLastInsID(),
+                    'mail' => $recv_email['email'],
+                    'sender_id' => $data['admin_id'],
+                    'add_time' => time(),
+                );
+                // 是否发送成功
+                if ($res['success'] == true) {
+                    $datas['status'] = 1;
+                } else {
+                    $datas['status'] = 2;
+                }
+                $datas['msg'] = $res['msg'];
+
+                // 日志入库
+                $smsLog = new SMSLogModel();
+                $smsLog->add($datas);
+            }
+        }
+        return message('申请成功', true, []);
+    }
+
+    /**
+     * 机房申请表单提交
+     * @return array
+     */
+    public function doSubmit()
+    {
+        $data = I("post.");
+        if (isset($data['token']) && $data['token']) {
+            $tokenData = $this->dataToken($data['token']);
+            if (!$tokenData['success']) {
+                return $tokenData;
+            }
+            // 数据处理
+            $userInfo = $tokenData['data'];
+            $data['organize_id'] = $userInfo['organization_id'];
+            $data['department_id'] = $userInfo['department_id'];
+            $data['admin_id'] = $userInfo['id'];
+            unset($data['token']);
+        }
+
+        // 日志
+        if (isset($data['notes']) && $data['notes']) {        // images 有值
+            $data['device_detail'] = $data['notes'];
+        }
+
+        $data['add_time'] = time();
+
+        // 数据入库
+        $res = $this->mod->add($data);
+
+        if (!$res)
+            return message('申请表单写入失败：' . $this->mod->getError(), false, []);
+        // 写入成功 发送邮件给审核人
+        // 获取信息
+        $adminMod = new AdminModel();
+        $recv_email = $adminMod->field('id, email, realname')->where([
+            'id' => $data['admin_id'],
+            'mark' => 1
+        ])->find();
+
+        // TODO 机房审核
+        if (!empty($recv_email)) {
+            $res = $this->sendEmail([
+                'toAddress' => $recv_email['email'],
+                'toName' => $recv_email['realname'],
+                'subject' => '您有新的机房申请订单，请及时审核~~',
                 'htmlData' =>
                     '<h1>请点击下面链接进行订单审核</h1><br>' . C("email_url") . '/page/table/application/update_application.html?uid=' . $recv_email['id'] . "&rid=" . $this->mod->getLastInsID(),
                 'data' =>

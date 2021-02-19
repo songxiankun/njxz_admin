@@ -25,7 +25,7 @@ class BaseController extends Controller
     {
         parent::__construct();
         // token验证
-        $res = $this->dataToken(I("token"), $flag);
+        $res = $this->dataToken(I("get.token") ? I("get.token") : I("post.token"), $flag);
         // 如果token验证失败直接返回消息
         if (!empty($res) && $res['success'] == false) {
             $this->ajaxReturn($res);

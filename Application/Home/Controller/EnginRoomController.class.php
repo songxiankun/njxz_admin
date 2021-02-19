@@ -4,7 +4,9 @@
 namespace Home\Controller;
 
 use Home\Model\AdminModel;
+use Home\Model\BuildingModel;
 use Home\Model\EnginRoomModel;
+use Home\Service\RepairApplicationService;
 
 /**
  * test模式倒入数据
@@ -13,9 +15,30 @@ use Home\Model\EnginRoomModel;
  */
 class EnginRoomController extends BaseController
 {
+    /**
+     * @var BuildingModel
+     */
+    private $buildMod;
+    /**
+     * @var EnginRoomModel
+     */
+    private $enginMod;
+    /**
+     * @var EnginRoomModel
+     */
+    private $mod;
+    /**
+     * @var RepairApplicationService
+     */
+    private $service;
+
     public function __construct()
     {
         parent::__construct();
+        $this->buildMod = new BuildingModel();
+        $this->enginMod = new EnginRoomModel();
+        $this->mod = new EnginRoomModel();
+        $this->service = new RepairApplicationService();
     }
 
     /**
@@ -155,5 +178,110 @@ class EnginRoomController extends BaseController
             // TODO 错误信息返回
             return $e->getMessage();
         }
+    }
+
+    /**
+     * 获取楼层信息
+     * @author kunkun
+     */
+    public function getBuildingAndAdminInfo()
+    {
+        if (IS_POST) {
+            // 获取所有楼层
+            $where = array(
+                'mark' => 1,
+            );
+            $buildArray = $this->buildMod->field('id, name')->where($where)->select();
+
+            $data = array(
+                'buildings' => $buildArray,
+            );
+
+            $this->ajaxReturn(message('获取楼成功', true, $data));
+        }
+        $this->ajaxReturn(message('非法请求', false, []));
+    }
+
+    /**
+     * 根据楼名 楼层 负责人 联动现实机房
+     * @author songxk
+     */
+    public function getRooms()
+    {
+        if (IS_POST) {
+            $building_id = I("post.building_id", 0);
+            $floor_id = I("post.floor_id", 0);
+
+            // 获取所有楼层
+            $where = array(
+                'building_id' => $building_id,
+                'floor' => $floor_id,
+                'mark' => 1,
+            );
+            // 信息查询  消息回送
+            $rooms = $this->enginMod->field('id, num')->order('num asc')->where($where)->group('num')->select();
+
+            if (empty($rooms)) {
+                $this->ajaxReturn(message("暂无数据", false));
+            }
+            $this->ajaxReturn(message("获取成功", true, ['rooms' => $rooms]));
+        }
+        $this->ajaxReturn(message('非法请求', false, []));
+    }
+
+    /**
+     * 根据room和building获取当前机房负责人
+     * @author kunkun
+     */
+    public function getAdminByRoomID()
+    {
+        if (IS_POST) {
+            $data = I("post.");
+            // 获取所有楼层
+
+            // 'building_id' => string '1' (length=1)
+            //  'room_id' => string '1888' (length=4)
+            if (!(isset($data['building_id']) && $data['building_id']))
+                $this->ajaxReturn(message('缺少必要参数：building_id', false, []));
+            if (!(isset($data['room_id']) && $data['room_id']))
+                $this->ajaxReturn(message('缺少必要参数：room_id', false, []));
+            $data['id'] = $data['room_id'];
+            unset($data['room_id']);
+            $data['mark'] = 1;
+
+            // 查询管理人员  4 role_ids
+            $admin_id = $this->mod->field('admin_id')
+                ->where($data)->find();
+
+            if (!$admin_id)
+                $this->ajaxReturn(message('该申请失效不存在用户：admin_id:'.$admin_id, false, []));
+
+            // 查询信息
+            $adminMod = new AdminModel();
+            $map = array(
+                'mark' => 1,
+                'id'    => $admin_id['admin_id']
+            );
+            $info = $adminMod->field('id, realname, num')->where($map)->find();
+
+            if (empty($info))
+                $this->ajaxReturn(message('该申请失效不存在用户：admin_id:'.$admin_id, false, []));
+            $this->ajaxReturn(message('获取楼成功', true, $info));
+        }
+        $this->ajaxReturn(message('非法请求', false, []));
+    }
+
+    /**
+     * 申请数据提交
+     * @author kunkun
+     */
+    public function submit()
+    {
+        if (IS_POST) {
+            $info = $this->service->doSubmit();
+            // 获取所有楼层
+            $this->ajaxReturn(message('获取楼成功', true, $info));
+        }
+        $this->ajaxReturn(message('非法请求', false, []));
     }
 }
