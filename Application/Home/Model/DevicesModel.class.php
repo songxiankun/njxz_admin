@@ -8,9 +8,25 @@ use Common\Model\BaseModel;
 
 class DevicesModel extends BaseModel
 {
+    /**
+     * @var DeviceTypeModel
+     */
+    private $deviceTypeMod;
+    /**
+     * @var AdminModel
+     */
+    private $adminMod;
+    /**
+     * @var EnginRoomModel
+     */
+    private $enginRoomMod;
+
     public function __construct($table = 'devices')
     {
         parent::__construct($table);
+        $this->deviceTypeMod = new DeviceTypeModel();
+        $this->adminMod = new AdminModel();
+        $this->enginRoomMod = new EnginRoomModel();
     }
 
     /**
@@ -70,17 +86,59 @@ class DevicesModel extends BaseModel
                     }
 
                     // 获取楼层
-                    $data['floor'] = $matches[0][0];
+                    $data['floor'] = $matches[0][0] . '楼';
+                    $data['floor_id'] = $matches[0][0];
 
                     // 机房编号
-                    $data['room_num'] = '机房' . strstr($arr[1], $matches[0][0]) . '-' . $arr[2];
+                    $data['room'] = '机房' . strstr($arr[1], $matches[0][0]);
+                    $data['room_id'] = $this->enginRoomMod->field('id')->where([
+                        'mark' => 1,
+                        'num'   => strstr($arr[1], $matches[0][0])
+                    ])->find()['id'];
 
-                    var_dump($data);
-                    die();
+                    // 机器编号
+                    $data['ccode'] = $data['num'] . '-' . $data['device_name'];
+                    $data['ccode_id'] = $data['id'];
+
+                    // 子设备
+                    $name = mb_substr($data['device_name'], 0, 2);
+
+                    $parent_id = $this->deviceTypeMod->field('id')->where([
+                        'name' => array('LIKE', "%" . $name . '%'),
+                        'parent_id' => 0,
+                        'mark' => 1
+                    ])->find();
+
+                    $childCount = 0;
+                    $childData = array();
+                    // 查询到当前设备的信息 进行子设备查询
+                    if (!empty($parent_id)) {
+                        $childCount = $this->deviceTypeMod->field('id, name')->where([
+                            'mark' => '1',
+                            'parent_id' => $parent_id['id']
+                        ])->count();
+                        $childData = $this->deviceTypeMod->field('id, name')->where([
+                            'mark' => '1',
+                            'parent_id' => $parent_id['id']
+                        ])->select();
+                    }
+                    $data['childCount'] = $childCount;
+                    $data['childData'] = $childCount == 0 ? 0 : $childData;
+
+                    // 获取审核管理员
+                    // 查询管理人员  4 role_ids
+                    $admins = $this->adminMod->field('realname, id, num')
+                        ->where("role_ids LIKE '%4%' and mark = 1")->select();
+                    $data['admin'] = $admins;
                 }
+
             }
-            // 处理鹤琴楼
-            die();
+            else  // 处理鹤琴楼
+            {
+
+            }
+
+           return $data;
 
            // var_dump($arr);die();
         }
