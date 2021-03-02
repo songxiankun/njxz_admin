@@ -6,7 +6,7 @@
 //定义域名常量
 define('MAIN_URL','http://admin.njxzc.edu.cn');
 define('IMG_URL','http://images.njxzc.edu.cn');
-define('ATTACHMENT_PATH', '/Applications/MxSrvs/www/njxz/admin/Uploads');
+define('ATTACHMENT_PATH', '/Applications/MxSrvs/www/admin/Uploads');
 define('IMG_PATH', ATTACHMENT_PATH."/img");
 define('FILE_PATH', ATTACHMENT_PATH."/file");
 define('UPLOAD_TEMP_PATH', IMG_PATH . '/temp');
@@ -14,10 +14,10 @@ define('UPLOAD_TEMP_PATH', IMG_PATH . '/temp');
 return array(
     'SITE_NAME' => '南京晓庄机房管理平台',
     'NICK_NAME' => '南京晓庄',
-    'DB_CONFIG' => 'mysql://njxz:njxz2020.!@127.0.0.1:3306/njxz',
-    // 'DB_CONFIG' => 'mysql://root:@127.0.0.1:3306/njxz',
-//    'DB_CONFIG' => 'mysql://njxz_laboratory:rZ8dXbW8mYktLX5B@112.124.25.211:3306/njxz_laboratory',
-    'CACHE_CONFIG'=>'redis://:@127.0.0.1:6379/2',
+//    'DB_CONFIG' => 'mysql://njxz:njxz2020.!@127.0.0.1:3306/njxz',
+//     'DB_CONFIG' => 'mysql://root:@127.0.0.1:3306/njxz',
+    'DB_CONFIG' => 'mysql://njxz_laboratory:Hih7nTY8xynaNd8P@10.11.124.4:3306/njxz_laboratory',
+    'CACHE_CONFIG'=>'redis://:@127.0.0.1:6379/1',
     'DB_PREFIX' => 'njxz_',
     'DB_CHARSET' => 'utf8mb4',
     'UPLOAD' => array(
