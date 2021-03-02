@@ -138,7 +138,7 @@ class DevicesModel extends BaseModel
 
             }
 
-           return message('查询成功', true, $data);;
+           return $data;
 
            // var_dump($arr);die();
         }
