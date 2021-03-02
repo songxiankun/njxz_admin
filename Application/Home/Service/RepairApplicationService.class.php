@@ -326,7 +326,6 @@ class RepairApplicationService extends BaseService
             'mark' => 1
         ])->find();
 
-        // TODO 机房审核
         if (!empty($recv_email)) {
             $res = $this->sendEmail([
                 'toAddress' => $recv_email['email'],
@@ -789,5 +788,50 @@ class RepairApplicationService extends BaseService
 
         }
         return message('接单成功，接单时间为：' . date("Y-m-d H:i:s", $newData['receive_time']));
+    }
+
+
+    /**
+     * 获取时间线
+     * @author kunkun
+     * type : 订单还是维修单
+     */
+    public function getTimeLine()
+    {
+        $data = I("get.");
+        if (!(isset($data['t_id']) && $data['t_id']))
+            return message("缺少必要参数!!!", false, ['t_id']);
+
+        if (!(isset($data['type']) && $data['type']))
+            return message("缺少必要参数!!!", false, ['type']);
+
+//        if (!(isset($data['token']) && $data['token']))
+//            return message("缺少必要参数!!!", false, ['token']);
+
+        $repairMod = new RepairApplicationModel();
+        $orderMod = new OrderModel();
+        // 获取信息
+        if ($data['type'] == 1)   // 维修订单
+        {
+            $repair_info = $repairMod->where(['id' => $data['t_id'], 'mark' => 1, 'status' => array('neq', 2)])->find();
+            echo $repairMod->getLastSql();
+            if (!is_null($repair_info) && $repair_info['status'] == 3) {
+                var_dump($repair_info['status']);
+                $order_info = $orderMod->where(['mark' => 1, 'repair_app_id' => $repair_info['id']])->find();
+                echo ($orderMod->getLastSql());
+            }
+        }
+        else if ($data['type'] == 2) // 订单orderid
+        {
+            $order_info = $orderMod->where(['mark' => 1, 'id' => $data['t_id']])->find();
+            if (!is_null($order_info) && $order_info['repair_app_id']) {
+                $repair_info = $repairMod->where(['id' => $order_info['repair_app_id'], 'mark' => 1, 'status' => array('neq', 2)])->find();
+            }
+        }
+
+        // 数据处理
+        var_dump($repair_info);
+        var_dump($order_info);
+        die();
     }
 }

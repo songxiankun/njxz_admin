@@ -88,4 +88,14 @@ class RepairApplicationController extends BaseController
         }
         $this->ajaxReturn(message("非法请求", false, []));
     }
+
+    /**
+     * 根据订单的id获取时间线 type 类型是order 还是 apply
+     * id 申请维修的id
+     * @author kunkun
+     */
+    public function getApplyTimeLine() {
+        $res = $this->service->getTimeLine();
+        $this->ajaxReturn($res);
+    }
 }
