@@ -4,9 +4,9 @@
  */
 
 //定义域名常量
-define('MAIN_URL','http://admin.njxzc.edu.cn');
-define('IMG_URL','http://images.njxzc.edu.cn');
-define('ATTACHMENT_PATH', '/Applications/MxSrvs/www/admin/Uploads');
+define('MAIN_URL','http://10.11.124.4:32768');
+define('IMG_URL','http://10.11.124.4:32769/');
+define('ATTACHMENT_PATH', '/www/wwwroot/njxz/njxz_admin/Uploads');
 define('IMG_PATH', ATTACHMENT_PATH."/img");
 define('FILE_PATH', ATTACHMENT_PATH."/file");
 define('UPLOAD_TEMP_PATH', IMG_PATH . '/temp');
