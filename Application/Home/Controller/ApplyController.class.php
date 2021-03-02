@@ -236,7 +236,7 @@ class ApplyController extends BaseController
             if ($num == 0)
                 $this->ajaxReturn(message('参数错误', false, []));
             $res = $this->deviceMod->getInfoByNums($num);
-            $this->ajaxReturn(message('获取成功', true, $res));
+            $this->ajaxReturn($res);
         }
         $this->ajaxReturn(message('非法请求', false, []));
     }

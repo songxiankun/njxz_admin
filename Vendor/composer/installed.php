@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '4d090de01d655db4b2ac651348f221c154ad6c40',
+    'reference' => 'bd69ddbc54200f90c8572e358d4819c2cd208238',
     'name' => 'topthink/thinkphp',
   ),
   'versions' => 
@@ -46,7 +46,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '4d090de01d655db4b2ac651348f221c154ad6c40',
+      'reference' => 'bd69ddbc54200f90c8572e358d4819c2cd208238',
     ),
   ),
 );
