@@ -29,6 +29,6 @@ return array(
         'woker'     => 1
     ),
     'order_prefix' => 'NJXZ',
-    'email_url'    => 'http://home.njxzc.edu.cn',
-    'api'          => 'http://api.njxzc.edu.cn'
+    'email_url'    => 'http://10.11.124.4',         // 前端入口
+    'api'          => 'http://10.11.124.4:32767'  // API 地址
 );

@@ -40,7 +40,7 @@ class UploadController extends BaseController
             // 上传成功 获取上传文件信息
             $filePath = $info['savepath'] . $info['savename'];
             if (strpos($filePath, IMG_URL) === FALSE) {
-                $filePath = IMG_URL . $filePath;
+                    $filePath = IMG_URL . $filePath;
             }
             $this->ajaxReturn(message('上传成功', true, $filePath));
         }
